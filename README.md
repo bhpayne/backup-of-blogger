@@ -1,2 +1,1 @@
-# backup-of-blogger
-from Google Takeout
+From <https://takeout.google.com/>
