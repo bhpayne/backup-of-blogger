@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2018'>
+  <id>tag:blogger.com,1999:blog-7071994872479468556</id>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-1248071684553824440</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>how to screw up a ballot</title>
+    <content type='html'>Topic: &lt;b&gt;spoiled ballots &lt;/b&gt;&lt;i&gt;and&lt;/i&gt;&amp;nbsp;&lt;i&gt;how to create them&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+The purpose of identifying these outcomes is to create category labels.&lt;br /&gt;
+For example, ballots that are "valid" conform to the expected behavior of the respective voting system.&lt;br /&gt;
+&lt;br /&gt;
+In all voting systems, there are common mistakes:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;no vote any choices (&lt;i&gt;Label&lt;/i&gt;: empty ballot)&lt;/li&gt;
+&lt;li&gt;illegible indicator, e.g. incomplete filling in of circle. (&lt;i&gt;Label&lt;/i&gt;: illegible&amp;nbsp;ballot)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+Some voting systems have mistakes particular to that system.&lt;/div&gt;
+&lt;h3&gt;
+Single vote&lt;/h3&gt;
+Expected behavior: Given N candidates, choose 1.&lt;br /&gt;
+&lt;br /&gt;
+How to screw up the vote:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;vote for more than one choice (&lt;i&gt;Label&lt;/i&gt;: invalid ballot)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;
+Approval voting&lt;/h3&gt;
+&lt;div&gt;
+Expected behavior: vote as much as you want&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+No way to screw up.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;h3&gt;
+Score voting, Range voting, STAR voting&lt;/h3&gt;
+&lt;div&gt;
+Expected behavior: Given N candidates, rank 1 or more candidates (up to all N).&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+Usually presented as an NxN grid to be filled in.&lt;br /&gt;
+&lt;br /&gt;
+How to screw up the vote:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;mistaking high and low (undetectable mistake; gets labeled as "valid ballot.")&lt;/li&gt;
+&lt;li&gt;multiple marks per candidate (&lt;i&gt;Label&lt;/i&gt;: invalid ballot)&lt;/li&gt;
+&lt;li&gt;multiple marks per rank&amp;nbsp;(&lt;i&gt;Label&lt;/i&gt;: invalid ballot)&lt;/li&gt;
+&lt;li&gt;no first choice. For example, two candidates both get "3".&amp;nbsp;&amp;nbsp;(&lt;i&gt;Label&lt;/i&gt;: invalid ballot)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://upload.wikimedia.org/wikipedia/commons/1/1e/Score_Runoff_Voting_sample_ballot.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="753" data-original-width="800" height="301" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Score_Runoff_Voting_sample_ballot.png" width="320" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:created>2019-07-31T09:02:25.607Z</blogger:created>
+    <published>2020-05-16T18:58:00Z</published>
+    <updated>2020-05-16T19:57:28.889Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-1287826075803245600</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Where to provide examples of alternative voting methods</title>
+    <content type='html'>Create a poll in a Facebook event:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;the default is to use approval voting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+Survey monkey&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Google survey&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;"multiple choice" allows for a single unranked vote&lt;/li&gt;
+&lt;li&gt;"checkboxes" allows for multiple unranked votes --&amp;gt; approval voting&lt;/li&gt;
+&lt;li&gt;"multiple choice grid" allows for IRV input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+    <blogger:created>2019-08-21T15:56:10.158Z</blogger:created>
+    <published>2019-08-21T16:02:00Z</published>
+    <updated>2020-05-16T19:02:27.984Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-1398904738466845428</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Why invest effort in Alternative Voting Methods</title>
+    <content type='html'>In this post I'll describe my motive for why I chose to invest effort in supporting use of alternative voting methods.&lt;br /&gt;
+&lt;br /&gt;
+I'm aware of many challenges in the American political system. Examples that immediately come to mind include gerrymandering, campaign finance, healthcare, participation in foreign affairs, the role of rhetoric, discrimination. Debate on practically every issue is shaped by the major party perspectives and the associated polarized perspective.&lt;br /&gt;
+&lt;br /&gt;
+Changing the polarized basis of debate has consequence on every issue. In order to address polarization, we need to address the American duopoly in our political system. Polarization is a natural consequence of our voting system. The chain of logic motivating my action is&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;change voting method&lt;/li&gt;
+&lt;li&gt;eliminate the duopoly of political parties&lt;/li&gt;
+&lt;li&gt;reduce polarization&lt;/li&gt;
+&lt;li&gt;improve process of debating challenges we face&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div&gt;
+There are other arguments for changing how Americans vote. For example, I'm motived by the possibility of the United States being a &lt;a href="https://en.wikipedia.org/wiki/Representative_democracy"&gt;representative democracy&lt;/a&gt;. This is a worthy goal, but it isn't the primary factor for me.&lt;/div&gt;
+</content>
+    <blogger:created>2019-07-31T03:25:05.819Z</blogger:created>
+    <published>2019-07-31T03:25:00.002Z</published>
+    <updated>2020-05-16T18:59:28.577Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-4112114409352614754</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>voting jargon with definitions</title>
+    <content type='html'>&lt;h3&gt;
+Spoiled ballots&lt;/h3&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;h3&gt;
+Favorite betrayal&amp;nbsp;&lt;/h3&gt;
+&lt;i&gt;summary&lt;/i&gt;: voter punished for ranking favorite as first&lt;br /&gt;
+"The favorite betrayal criterion is satisfied if a voter’s ballot always benefits by showing the greatest support for a favorite candidate."&lt;br /&gt;
+&lt;a href="https://rangevoting.org/FBex3.html"&gt;https://rangevoting.org/FBex3.html&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+Nonmonotonicity&lt;/h3&gt;
+&lt;i&gt;summary&lt;/i&gt;: candidate hurt by more positive rankings&lt;br /&gt;
+"non-monotonicity is when a winner can be changed to a loser by experiencing an increase in support OR a loser can be changed to a winner by experiencing a decrease in support."&lt;br /&gt;
+Restating how determine non-monotonicity, the two options are&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Could the winner have been made the loser by gaining support&lt;/li&gt;
+&lt;li&gt;Could the loser have been made the winner by losing support?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href="https://www.electionscience.org/library/monotonicity/"&gt;https://www.electionscience.org/library/monotonicity/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+Condorcet winner&lt;/h3&gt;
+&lt;i&gt;summary&lt;/i&gt;: the candidate who could beat all other candidates in a head-to-head race&lt;br /&gt;
+"The Condorcet criterion is satisfied if when a candidate can beat every other candidate in a head-to-head election, that beat-all candidate always wins. "&lt;br /&gt;
+&lt;br /&gt;
+--&amp;gt; To test this condition in a race with 5 candidates, compare each pair and use first ranked choices only.</content>
+    <blogger:created>2020-05-16T19:07:42.808Z</blogger:created>
+    <published>2020-05-16T19:14:00.001Z</published>
+    <updated>2020-05-16T19:21:30.099Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-5296080492709089032</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Comparison of alternative voting methods</title>
+    <content type='html'>Rather than attempt to provide novel contributions to comparisons of voting methods, in this post I link to resources on the topic&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://plato.stanford.edu/entries/voting-methods/"&gt;https://plato.stanford.edu/entries/voting-methods/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://en.wikipedia.org/wiki/Comparison_of_electoral_systems"&gt;https://en.wikipedia.org/wiki/Comparison_of_electoral_systems&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+There are resources from sources that advocate specific positions:&lt;br /&gt;
+&lt;a href="https://www.rangevoting.org/CompChart.html"&gt;https://www.rangevoting.org/CompChart.html&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://archive.fairvote.org/Single%20winner%20voting%20method%20chart.pdf"&gt;http://archive.fairvote.org/Single%20winner%20voting%20method%20chart.pdf&lt;/a&gt;</content>
+    <blogger:created>2019-07-31T03:35:45.155Z</blogger:created>
+    <published>2019-07-31T03:35:00.003Z</published>
+    <updated>2020-05-16T18:59:57.707Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-6841368196552166150</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>data sources for analysis</title>
+    <content type='html'>The&amp;nbsp;RCV Data Clearinghouse is&lt;br /&gt;
+https://www.rankedchoicevoting.org/data_clearinghouse</content>
+    <blogger:created>2020-05-16T19:16:44.088Z</blogger:created>
+    <published>2020-05-16T19:17:00.001Z</published>
+    <updated>2020-05-16T19:17:50.263Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-8305472775067337143</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Analysis of Sante Fe ballots</title>
+    <content type='html'></content>
+    <blogger:created>2019-07-31T03:25:40.849Z</blogger:created>
+    <published>2019-07-31T03:25:00.005Z</published>
+    <updated>2019-07-31T03:25:46.333Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7071994872479468556.post-9127833031170639629</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>where to influence election practices</title>
+    <content type='html'>What venues exist where voting is used?&lt;br /&gt;
+If these venues are recurring and adhere to a process, then there is the possibility that the process can be altered.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+Corporate elections&lt;/h3&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+elections for organizations and associations&lt;/h3&gt;
+Olympics&lt;br /&gt;
+&lt;h3&gt;
+school elections -- college and high schools&lt;/h3&gt;
+&lt;a href="https://en.wikipedia.org/wiki/Student_council"&gt;https://en.wikipedia.org/wiki/Student_council&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.asgaonline.com/"&gt;https://www.asgaonline.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://asgaconferences.com/"&gt;https://asgaconferences.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.naspa.org/constituent-groups/kcs/student-government"&gt;https://www.naspa.org/constituent-groups/kcs/student-government&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.wearesga.com/"&gt;https://www.wearesga.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.leadconferences.org/"&gt;http://www.leadconferences.org/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.natstuco.org/"&gt;https://www.natstuco.org/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.natstucoconference.org/"&gt;http://www.natstucoconference.org/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.natstuco.org/events/national-student-council-conference/"&gt;https://www.natstuco.org/events/national-student-council-conference/&lt;/a&gt;&lt;br /&gt;
+why: influence next generation of political activists&lt;br /&gt;
+state level:&amp;nbsp;&lt;a href="https://www.tasconline.org/"&gt;https://www.tasconline.org/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-07-31T09:08:54.381Z</blogger:created>
+    <published>2019-07-31T12:30:00.004Z</published>
+    <updated>2020-05-16T19:02:06.621Z</updated>
+  </entry>
+</feed>

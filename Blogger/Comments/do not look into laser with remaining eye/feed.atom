@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2018'>
+  <id>tag:blogger.com,1999:blog-6676997041585153703</id>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6676997041585153703.post-96526384749975154</id>
+    <blogger:parent>tag:blogger.com,1999:blog-6676997041585153703.post-3346011135871750720</blogger:parent>
+    <blogger:type>COMMENT</blogger:type>
+    <blogger:status>GHOSTED_COMMENT</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title></title>
+    <content type='html'></content>
+    <blogger:created>2019-12-18T00:21:03.915Z</blogger:created>
+    <published>2019-12-18T00:21:03.915Z</published>
+    <updated>2019-12-18T00:24:29.007Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6676997041585153703.post-168054282519468975</id>
+    <blogger:parent>tag:blogger.com,1999:blog-6676997041585153703.post-3346011135871750720</blogger:parent>
+    <blogger:type>COMMENT</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title></title>
+    <content type='html'>May 2019:
+$250 to EFF
+$200 to ACLU foundation
+$200 to Planned Parenthood
+$200 to local mediation group</content>
+    <blogger:created>2019-05-18T17:25:44.798Z</blogger:created>
+    <published>2019-05-18T17:25:44.798Z</published>
+    <updated>2019-05-18T17:25:44.798Z</updated>
+  </entry>
+</feed>

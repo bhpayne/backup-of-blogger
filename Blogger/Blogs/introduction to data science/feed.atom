@@ -1,0 +1,1913 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2018'>
+  <id>tag:blogger.com,1999:blog-4326047262954282078</id>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-86889386149824355</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>data science portfolio for job interviews</title>
+    <content type='html'>I don't have experience creating a portfolio or judging other people's portfolios, so take my advice with a healthy dose of salt. There's plenty of &lt;a href="https://www.google.com/search?q=data+science+portfolio"&gt;advice available online&lt;/a&gt;. I think a good portfolio would demonstrate the skills employers should expect from their hire.&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt; portfolio hosted on a publicly accessible site, eg github/gitlab/kaggle
+&lt;/li&gt;
+&lt;li&gt; original analysis (rather than re-using data and code)
+&lt;/li&gt;
+&lt;li&gt; if content is intended for a specific employer, target the domain -- time series analysis versus geo-viz versus NLP
+&lt;/li&gt;
+&lt;li&gt; clear documentation targeting either a non-data scientist or a data scientist
+&lt;ul&gt;
+&lt;li&gt; how the code backs the story being told
+&lt;/li&gt;
+&lt;li&gt; what the purpose of the code is
+&lt;/li&gt;
+&lt;li&gt; why various choices were made
+&lt;/li&gt;
+&lt;li&gt; what assumptions were made
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt; a balance of code you wrote and use of external libraries (eg matplotlib, seaborn, pandas)
+&lt;/li&gt;
+&lt;li&gt; visualization of results using appropriate plot type and using clear labels on axes, legends, titles
+&lt;/li&gt;
+&lt;li&gt; awareness of optimization. For example, timing execution of computationally intense operations
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-08-23T00:46:34.763Z</blogger:created>
+    <published>2019-08-23T00:48:00.002Z</published>
+    <updated>2019-08-23T00:48:49.053Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-404464263253976737</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Normalization - another example</title>
+    <content type='html'>A student had two data sets and wanted to join (events with timestamps) and (precipitation per day). To get the two variables on the same time scale, we considered events per day and precipitation per day. Plotting these two variables on a scatter plot would be a potentially useful visualization. No normalization is required for the scatter plot since the inputs aren't categorical variables.&lt;br /&gt;
+&lt;br /&gt;
+Another candidate visualization would be to compare total number of events on days with precipitation against total number of events on days without precipitation. Plotted on a bar chart as two bars, this comparison would benefit from normalization. Suppose there were 2 days out of a month that had precipitation and the other 28 days did not. Because of the imbalance of days, comparing the total number of events in each category is not useful. To normalize the comparison, plot a bar chart showing (total number of events on days with precipitation divided by the number of days with precipitation) and (total number of events on days without precipitation divided by the number of days without precipitation).</content>
+    <blogger:created>2020-03-14T14:45:58.027Z</blogger:created>
+    <published>2020-03-14T14:49:00.001Z</published>
+    <updated>2020-03-14T14:52:30.345Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-448439892295012519</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Letters of recommendation - how not to ask and how to ask well</title>
+    <content type='html'>I received an email from a student. Here's the message:&lt;br /&gt;
+&lt;blockquote class="tr_bq"&gt;
+I was applying to an intern position on Microsoft's site for text embedding intern and they asked for reference letters. I have provided your name for reference. I am hoping that is okay to do. In case that is an issue let me know and I will take care of it.&amp;nbsp;&lt;/blockquote&gt;
+&lt;blockquote class="tr_bq"&gt;
+Thanks,&lt;/blockquote&gt;
+&lt;div&gt;
+&lt;br /&gt;
+For letters of recommendation, it is courteous to seek permission first, then submit the letter writer's name.&amp;nbsp; Give the person time to respond.&lt;br /&gt;
+&lt;br /&gt;
+When writing the letter, the recommender will need the following information:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Your name&lt;/li&gt;
+&lt;li&gt;The position you are seeking&lt;/li&gt;
+&lt;li&gt;The name of the company you are applying to&lt;/li&gt;
+&lt;li&gt;Which semester you attended the course&lt;/li&gt;
+&lt;li&gt;What your grade was&lt;/li&gt;
+&lt;li&gt;Any information that would distinguish you from other position applicants in a letter of recommendation. Was there something note worthy you did in class that is relevant to the position being applied to?&lt;/li&gt;
+&lt;li&gt;Where does the letter get sent?&lt;/li&gt;
+&lt;li&gt;What is the deadline for the letter to be submitted?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+    <blogger:created>2020-01-07T04:40:31.832Z</blogger:created>
+    <published>2020-02-08T15:26:00.002Z</published>
+    <updated>2020-02-11T00:21:28.531Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='recommendation'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-502652773354350881</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>disclaimer and release and use</title>
+    <content type='html'>All views expressed on this blog are my own. The content does not reflect the views of my employers or organizations I am associated with.&lt;br /&gt;
+&lt;br /&gt;
+I am not representing anyone else or any company or organization. I am not acting on behalf of any organization or company.&lt;br /&gt;
+&lt;br /&gt;
+I am not paid to produce content. I am not paid for referrals.&lt;br /&gt;
+&lt;br /&gt;
+Use content at your own risk. I am not responsible for how you use information presented.&lt;br /&gt;
+&lt;br /&gt;
+I assume no responsibility or liability for any errors or omissions in the content of this site. The information contained in this site is provided on an “as is” basis with no guarantees of completeness, accuracy, usefulness or timeliness.&lt;br /&gt;
+&lt;br /&gt;
+Fair use: links to copyrighted materials is used in support of teaching and commentary and&amp;nbsp;criticism.&lt;br /&gt;
+&lt;br /&gt;
+All materials on this blog are covered by CC BY 4.0&lt;br /&gt;
+&lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;</content>
+    <blogger:created>2019-08-18T13:35:11.748Z</blogger:created>
+    <published>2019-08-18T13:46:00Z</published>
+    <updated>2019-08-18T13:46:45.841Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-531454278921437506</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>run all notebooks in directory</title>
+    <content type='html'>Run all notebooks:&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;for fil in *.ipynb; do&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;&amp;nbsp; jupyter nbconvert --to notebook --execute --output=$fil $fil&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;done
+&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Run all notebooks and clear output&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;for fil in *.ipynb; do&lt;br /&gt;&amp;nbsp; jupyter nbconvert --to notebook --execute --output=$fil $fil&lt;br /&gt;&amp;nbsp; jupyter nbconvert --ClearOutputPreprocessor.enabled=True   --to notebook --output=$fil $fil&lt;br /&gt;
+done&lt;/span&gt;</content>
+    <blogger:created>2019-09-11T01:58:23.330Z</blogger:created>
+    <published>2019-09-11T01:59:00.004Z</published>
+    <updated>2019-09-11T01:59:29.369Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-705961632840032941</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>How to create plain text files</title>
+    <content type='html'>&lt;h3&gt;
+Using a Mac&lt;/h3&gt;
+&lt;br /&gt;
+You can create plain text files on Mac using TextEdit:&lt;br /&gt;
+&lt;br /&gt;
+Method 1: permenantly change the settings -- see &lt;a href="https://www.youtube.com/watch?v=cf-jD-Xy5a4"&gt;https://www.youtube.com/watch?v=cf-jD-Xy5a4&lt;/a&gt;&lt;br /&gt; TextEdit &amp;gt; Preferences &amp;gt; Format = Plain text&lt;br /&gt;
+&lt;br /&gt;
+Method 2: temporarily change the settings -- see &lt;a href="https://www.youtube.com/watch?v=wZX4yMZanNY"&gt;https://www.youtube.com/watch?v=wZX4yMZanNY&lt;/a&gt;&lt;br /&gt; TextEdit &amp;gt; Format &amp;gt; Make Plain Text&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+Using Windows&lt;/h3&gt;
+&lt;br /&gt;
+You can create plain text files on Windows using Notepad; see &lt;a href="https://www.youtube.com/watch?v=2oMFimactFE"&gt;https://www.youtube.com/watch?v=2oMFimactFE&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+In Jupyter or JupyterLab&lt;/h3&gt;
+&lt;br /&gt;
+If you are using JupyterLab, you can click on "text file" in Launcher; see &lt;a href="https://imgur.com/a/yeAf1Py"&gt;https://imgur.com/a/yeAf1Py&lt;/a&gt;.&lt;br /&gt;
+Alternatively, if you're using Jupyter, you can select "New &amp;gt; Text file"; see &lt;a href="https://imgur.com/a/x3J13TJ"&gt;https://imgur.com/a/x3J13TJ&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2020-02-09T16:21:47.555Z</blogger:created>
+    <published>2020-02-09T16:22:00.003Z</published>
+    <updated>2020-02-09T16:22:49.440Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='plain text'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-711976471485099584</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>how to create complex for loops by starting one step at a time</title>
+    <content type='html'>Constructing &lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;for&lt;/span&gt; loops with the appropriate indices and limits is difficult. Rather than start with a &lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;for&lt;/span&gt; loop, I suggest stepping through the process manually until you recognize the relevant patterns. To illustrate the concept, suppose I have two lists: mygreatlist and anotherlist. In this illustration, suppose the necessary action is to add two elements from off-set locations 20 times. The first iteration is&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;print(mygreatlist[34] + anotherlist[23])
+
+&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+The next step in the process is to add the adjacent elements:
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;print(mygreatlist[35] + anotherlist[24])
+
+&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+And the next step is to add adjacent elements:
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;print(mygreatlist[36] + anotherlist[25])&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+You should repeat the manual incrementing process until you see a pattern.&lt;br /&gt;
+&lt;br /&gt;
+One method of constructing a loop that does the above action 20 times would be to use&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;for indx in range(20):&lt;br /&gt;&amp;nbsp; &amp;nbsp; print('indx=',indx)&lt;br /&gt;
+&amp;nbsp; &amp;nbsp;&amp;nbsp;print(mygreatlist[indx+34] + anotherlist[indx+23])&lt;/span&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-09-29T14:57:39.493Z</blogger:created>
+    <published>2019-09-29T15:03:00.002Z</published>
+    <updated>2019-09-29T15:03:46.204Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='loops'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='Python'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-737145268467069647</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: picking a durable technology</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;: what programming language will stay around for a while?&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+To judge durability of a technology, look at the age.&lt;br /&gt;
+Older technologies have momentum and are likely to remain in use.&lt;br /&gt;
+&lt;a href="https://en.wikipedia.org/wiki/Lindy_effect"&gt;https://en.wikipedia.org/wiki/Lindy_effect&lt;/a&gt;</content>
+    <blogger:created>2019-11-13T03:26:29.125Z</blogger:created>
+    <published>2019-11-13T03:26:00.002Z</published>
+    <updated>2019-11-13T03:26:39.672Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-1094891443861746315</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>compare utility of advertising attribution models</title>
+    <content type='html'>&lt;i&gt;Student&lt;/i&gt;:&lt;br /&gt;
+My company is trying to better understand the impact different outreach channels have on the likelihood someone will buy our product.  Prior to buying, someone may see any number or combination of ads from Facebook, from searching for the product, or something related on Google (or Bing or whatever), from display ads, we may have sent them an email, they may have visited articles on the company webpage.
+
+&lt;br /&gt;
+&lt;br /&gt;
+One potential model is "last touch attribution."  If someone searches for the product, sees a Facebook ad, clicks on a different Facebook ad, and then the next day goes directly to company's website and buys, we won’t give any credit to the Google or Facebook ads.  
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;What would be your approach to better determine how much impact each advertising channel has on digital joins?&lt;/b&gt;  We have individual-level data for all of these touchpoints.
+
+
+
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;My response&lt;/i&gt;:&lt;br /&gt;
+I read up on the topic here: &lt;a href="https://support.google.com/analytics/answer/1662518?hl=en"&gt;https://support.google.com/analytics/answer/1662518?hl=en&lt;/a&gt;&lt;br /&gt;
+and&amp;nbsp;&lt;a href="https://www.facebook.com/business/help/2096281767261898?id=399393560487908"&gt;https://www.facebook.com/business/help/2096281767261898?id=399393560487908&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+I'll rephrase your question as, "given a set of attribution models,
+which model best predicts the desired outcome?"
+That sounds like an optimization evaluation, aka supervised machine learning.
+I'll assume you have a statistically significant number of measured
+outcomes (aka labeled data, aka customer conversions). 
+
+&lt;br /&gt;
+&lt;br /&gt;
+Suppose you have N customers with measured outcomes and 5 models.
+Split the N customers into a &lt;a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets"&gt;test/train/validation grouping&lt;/a&gt;, then use the customers in the training set to determine which model works best.
+If that model also works well in predicting customers in the test set,
+then we have a winner.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+</content>
+    <blogger:created>2020-04-22T12:00:24.575Z</blogger:created>
+    <published>2020-04-22T12:09:00Z</published>
+    <updated>2020-04-22T12:09:00.759Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-1452886057495691140</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: ratio of time spent planning to time spent implementing</title>
+    <content type='html'>Question: how much time should I invest in planning and how much time should I invest in writing code?&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+The answer varies based on where you are in your career. When you're just starting out in programming and in data science, see how detailed of a plan you can come
+up with before tackling the project. Can you imagine what might need
+to be done and how to do it? What issues might you encounter?
+If you can write pseudo code, that would be great.
+&lt;br /&gt;
+&lt;br /&gt;
+As you gain more experience with exploration, there will be less value
+in this planning activity.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Student&lt;/i&gt;: I don't understand the problems until I get into the code.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+Agreed -- this is the trade-off. I'm asking for imagination and
+planning, but without experience students don't know what to plan for
+and what might appear in data.
+The floundering and directionlessness of starting in programming and in data science can be challenging, but
+that is because you are in the process of gaining experience.
+There's value in creating a plan, but probably an hour of intentional
+focus is sufficient.&lt;br /&gt;
+&lt;br /&gt;
+While you're early in your career, a balance of "plan an hour, code an
+hour" is reasonable. As you progress, that ratio changes (e.g., "20
+minutes of planning, an hour of coding."&lt;br /&gt;
+&lt;br /&gt;
+The process is iterative, so it's actually more like
+"plan an hour, code an hour; plan an hour, code an hour; plan an hour,
+code an hour"</content>
+    <blogger:created>2020-05-10T16:53:32.123Z</blogger:created>
+    <published>2020-05-10T16:56:00.002Z</published>
+    <updated>2020-05-10T16:56:52.739Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-1614388610839166146</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: what if there's too much data to analyze?</title>
+    <content type='html'>Working with a small subset of the data means faster development but
+also risks missing some pattern that only emerges at a certain scale.
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt; The tactic of using the first N lines (I used N=10,000) is the
+easiest but is subject to the issue of not catching issues that only
+show up later in the data set.
+&lt;/li&gt;
+&lt;li&gt; To be smarter about sampling, the next tactic would be to randomly
+sample N lines from the dataset. Even though it's the same size,
+you're more likely to pick up issues that only appear towards the
+bottom of the dataframe.
+&lt;/li&gt;
+&lt;/ul&gt;
+Both of the above approaches to sampling may miss patterns that depend
+on adjacent rows.
+
+Another tactic is to start with N/2 rows, then re-run the analysis
+with N rows, and N*2 rows. If the conclusions don't change, we can
+claim the results have converged for sufficient number of rows.
+&lt;br /&gt;
+</content>
+    <blogger:created>2020-04-09T23:47:21.799Z</blogger:created>
+    <published>2020-04-09T23:48:00Z</published>
+    <updated>2020-04-09T23:48:02.503Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-1706468243737528003</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>medium scale data</title>
+    <content type='html'>There's a lot of hype around "&lt;a href="https://en.wikipedia.org/wiki/Big_data"&gt;big data&lt;/a&gt;," but I suspect most data scientists are stuck with what I refer to as "medium" data. The scale of the data is "medium" when it is too big to manipulate manually (e.g., in Excel) and too small to apply statistical techniques.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+That's different than the definition provided here&lt;br /&gt;
+&lt;a href="http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html"&gt;http://highscalability.com/blog/2014/12/17/the-big-problem-is-medium-data.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.tableau.com/medium-data"&gt;https://www.tableau.com/medium-data&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://svdictionary.com/words/medium-data"&gt;https://svdictionary.com/words/medium-data&lt;/a&gt;&lt;br /&gt;
+Undefined:&lt;br /&gt;
+&lt;a href="https://www.jesse-anderson.com/2017/06/medium-data/"&gt;https://www.jesse-anderson.com/2017/06/medium-data/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.medpagetoday.com/patientcenteredmedicalhome/patientcenteredmedicalhome/76607"&gt;https://www.medpagetoday.com/patientcenteredmedicalhome/patientcenteredmedicalhome/76607&lt;/a&gt;</content>
+    <blogger:created>2019-10-27T20:33:40.885Z</blogger:created>
+    <published>2019-10-27T20:35:00.003Z</published>
+    <updated>2019-10-27T20:40:31.319Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-1717592807401046675</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: function overloading in Python</title>
+    <content type='html'>&lt;h2&gt;
+Question from Student&lt;/h2&gt;
+How does Python handle &lt;a href="https://en.wikipedia.org/wiki/Function_overloading"&gt;function overloading&lt;/a&gt;?&lt;br /&gt;
+&lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+Based on &lt;a href="https://www.google.com/search?q=function+overloading+python"&gt;this search&lt;/a&gt; see &lt;a href="https://stackabuse.com/overloading-functions-and-operators-in-python/"&gt;https://stackabuse.com/overloading-functions-and-operators-in-python/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+I don't see function overloading used much in practice for exploratory data analysis.
+</content>
+    <blogger:created>2019-09-06T01:09:58.260Z</blogger:created>
+    <published>2019-09-06T01:11:00Z</published>
+    <updated>2019-09-06T01:11:02.118Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-1786133161442114165</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: how do I compare with other students?</title>
+    <content type='html'>&lt;em&gt;Question&lt;/em&gt;: How do I compare with other students in this class?&lt;br /&gt;
+&lt;br /&gt;
+&lt;em&gt;Response&lt;/em&gt;: You're not competing with the other students in 601, so I don't view this as a meaningful question. Once you leave the university, you will be in a competitive market. A more useful question to ask is, "How can I demonstrate my value to potential employers?"&lt;br /&gt;&lt;br /&gt;
+With that revised question, I see two potential approaches to the projects in this class. One approach is to meet the requirements specified in the rubric; the other approach is to meet the requirements in the rubric and treat the analysis as an entry for your portfolio. A portfolio (see&amp;nbsp;&lt;a data-saferedirecturl="https://www.google.com/url?q=https://www.google.com/search?q%3Dportfolio%2Bdata%2Bscience&amp;amp;source=gmail&amp;amp;ust=1585517318517000&amp;amp;usg=AFQjCNF_BBFewZneG5W4Z7hCriuKEKVcjw" href="https://www.google.com/search?q=portfolio+data+science" style="color: #1155cc;" target="_blank"&gt;https://www.google.com/&lt;wbr&gt;&lt;/wbr&gt;search?q=portfolio+data+&lt;wbr&gt;&lt;/wbr&gt;science&lt;/a&gt;) should provide examples of the skills you have. Here skills refer to programming knowledge, knowledge of what good analysis is, and ability to convey knowledge of the results in written form and through visualizations.</content>
+    <blogger:created>2020-03-28T21:43:52.112Z</blogger:created>
+    <published>2020-03-28T21:44:00.001Z</published>
+    <updated>2020-03-28T21:44:12.353Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-1889248634887500154</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>math in data science</title>
+    <content type='html'>&lt;a href="https://www.dataquest.io/blog/math-in-data-science/"&gt;https://www.dataquest.io/blog/math-in-data-science/&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://news.ycombinator.com/item?id=20668725"&gt;https://news.ycombinator.com/item?id=20668725&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Question: What math is not relevant to data science?&lt;br /&gt;
+* modern algebra&lt;br /&gt;
+* geometry&lt;br /&gt;
+* topology&lt;br /&gt;
+&lt;br /&gt;
+Question: What math is useful for data science?&lt;br /&gt;
+Primarily statistics and probability and linear algebra (in that order). Some combinatorics. The areas of differential equations&lt;br /&gt;
+and calculus are relevant for algorithm design.</content>
+    <blogger:created>2019-08-18T13:55:05.941Z</blogger:created>
+    <published>2019-08-18T13:55:00.002Z</published>
+    <updated>2020-04-03T19:52:52.603Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2075130872533576542</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: who should I be talking with as a data scientist?</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;:&amp;nbsp;who should I be talking with as a data scientist?&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;coworkers&lt;/li&gt;
+&lt;li&gt;other data scientists&lt;/li&gt;
+&lt;li&gt;people who have (attempted to) solve the same problem before&lt;/li&gt;
+&lt;li&gt;people impacted by your solution&lt;/li&gt;
+&lt;li&gt;people who are unrelated to your domain (outside perspective)&lt;/li&gt;
+&lt;li&gt;people who are expected to benefit from your work (will they actually benefit?)&lt;/li&gt;
+&lt;li&gt;people who will support your implementation (system owners)&lt;/li&gt;
+&lt;li&gt;people who are supplying your data&lt;/li&gt;
+&lt;li&gt;your boss&lt;/li&gt;
+&lt;li&gt;your subordinates&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <blogger:created>2019-11-13T03:32:27.327Z</blogger:created>
+    <published>2019-11-13T03:34:00.002Z</published>
+    <updated>2019-11-13T03:34:49.271Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2112714920202050133</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>complex data visualizations from 1944: United States Interregional Highways report</title>
+    <content type='html'>"Report of the National Interregional Highway Committee, appointed by President Roosevelt in April 1941 to investigate the need for a limited system of national highways. The report recommended that the federal government upgrade a route map of 33,920 miles of specific roads to limited-access status to create a national network of superhighways."&lt;br /&gt;
+from&amp;nbsp;&lt;a href="https://www.enotrans.org/eno-resources/1944-interregional-highways-report/"&gt;https://www.enotrans.org/eno-resources/1944-interregional-highways-report/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Report:&amp;nbsp;&lt;a href="https://www.enotrans.org/wp-content/uploads/membersOnly-1944-Interregional-Highways.pdf"&gt;https://www.enotrans.org/wp-content/uploads/membersOnly-1944-Interregional-Highways.pdf&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://1.bp.blogspot.com/-xi1riMtXp5g/XufVMmToskI/AAAAAAAA_88/vY8ZRtmqXv41PNZFzQssVwEgFic6B_LBgCLcBGAsYHQ/s1600/Screen%2BShot%2B2020-06-15%2Bat%2B4.07.04%2BPM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="778" data-original-width="1106" height="448" src="https://1.bp.blogspot.com/-xi1riMtXp5g/XufVMmToskI/AAAAAAAA_88/vY8ZRtmqXv41PNZFzQssVwEgFic6B_LBgCLcBGAsYHQ/s640/Screen%2BShot%2B2020-06-15%2Bat%2B4.07.04%2BPM.png" width="640" /&gt;&lt;/a&gt;&lt;/div&gt;
+"1 dot represents 2000 inhabitants"&lt;br /&gt;
+"Figure 5. The recommended interregional system in relation to the distribution of the whole population of the United States."&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://1.bp.blogspot.com/-ixywfTVDhhQ/XufVM6zHcSI/AAAAAAAA_9A/W8HtLjn9jBwcQPsTNVaF1vuhk-RjOoRmwCLcBGAsYHQ/s1600/Screen%2BShot%2B2020-06-15%2Bat%2B4.07.57%2BPM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="679" data-original-width="1268" height="342" src="https://1.bp.blogspot.com/-ixywfTVDhhQ/XufVM6zHcSI/AAAAAAAA_9A/W8HtLjn9jBwcQPsTNVaF1vuhk-RjOoRmwCLcBGAsYHQ/s640/Screen%2BShot%2B2020-06-15%2Bat%2B4.07.57%2BPM.png" width="640" /&gt;&lt;/a&gt;&lt;/div&gt;
+"Relief traffic map of the recommended interregional system. The height of the traffic bands indicates approximately the average density of traffic to be expected at all points on the system."</content>
+    <blogger:created>2020-06-15T20:04:09.046Z</blogger:created>
+    <published>2020-06-15T20:10:00Z</published>
+    <updated>2020-06-15T20:10:03.426Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2174916593260845061</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>questions to ask a guest speaker</title>
+    <content type='html'>&lt;div&gt;
+Regardless of what a data scientist does, they have stories. Here are some questions that you can ask a guest speaker:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;What was your path to your current career?&lt;/li&gt;
+&lt;li&gt; How you decided to work for your current employer?&lt;/li&gt;
+&lt;li&gt; What topic/domain does your work address?&lt;/li&gt;
+&lt;li&gt; What does your typical day looks like?&lt;/li&gt;
+&lt;li&gt;What mistakes have you made that would be relevant to data science students?&lt;/li&gt;
+&lt;li&gt;What is your process for identifying challenges and how do you tackle them?&lt;/li&gt;
+&lt;li&gt; How do you collaborate with folks outside your organization?&lt;/li&gt;
+&lt;li&gt; How do you collaborate with other employees?&lt;/li&gt;
+&lt;li&gt;What is an example where you helped another team? In addition to the technical aspect, what were the politics and personalities?&lt;/li&gt;
+&lt;li&gt;What data are you operating on (text, images, video, etc)?
+&lt;/li&gt;
+&lt;li&gt; Where do you get your data? Did you clean it? Label it?
+&lt;/li&gt;
+&lt;li&gt; For computational resources, what are you using? Is this a constraint?
+&lt;/li&gt;
+&lt;li&gt; Do you publish your results externally, or is the result internal reporting?
+&lt;/li&gt;
+&lt;li&gt; How often do you go to conferences?
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <blogger:created>2019-10-07T09:44:10.058Z</blogger:created>
+    <published>2019-10-07T09:46:00Z</published>
+    <updated>2019-10-07T09:46:00.482Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2296447039182517898</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>how do I use Python to manage websites?</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;: I have created an HTML page where on users enter their login data. I have to validate user data from sqlite3 database. I need to do this via Python. Do you know any option for this task?&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+&lt;br /&gt;I used&lt;br /&gt;https://www.google.com/search?q=use+sqlite+in+python&lt;br /&gt;to find&lt;br /&gt;https://docs.python.org/3/library/sqlite3.html&lt;br /&gt;--&amp;gt; Yes, you can use Python to interact with sqlite3&lt;br /&gt;&lt;br /&gt;I used&lt;br /&gt;https://www.google.com/search?q=python+web+pages&lt;br /&gt;to find&lt;br /&gt;https://realpython.com/python-web-applications/&lt;br /&gt;and&lt;br /&gt;https://wiki.python.org/moin/WebFrameworks&lt;br /&gt;--&amp;gt; Personally, I have experience with using Flask.&lt;br /&gt;&lt;br /&gt;In this context, what you care about is called the "model view controller framework." &lt;br /&gt;From &lt;br /&gt;https://www.google.com/search?q=model+view+controller&lt;br /&gt;there are helpful links, including&lt;br /&gt;https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller&lt;span class="sew6s18b7y31ak0"&gt;&lt;/span&gt;&lt;span class="sew6s18b7y31ak0"&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Lastly, managing password and user accounts is challenging to do well. Therefore, I recommend reading about how others have addressed the issue. You will lose the trust of your users if you do not use secure methods for dealing with their accounts. This includes using HTTPS to make sure the transmission of passwords is handled correctly.</content>
+    <blogger:created>2020-03-18T02:08:40.841Z</blogger:created>
+    <published>2020-03-18T02:09:00.004Z</published>
+    <updated>2020-03-18T02:09:48.047Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2431639858125975091</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: input file is too large for Jupyter and Pandas</title>
+    <content type='html'>&lt;h2&gt;
+Question from student&lt;/h2&gt;
+I have a python script that I am trying to run but the Python3 kernel in &lt;a href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt; keeps dying. I think it gets hung up when &lt;a href="https://pandas.pydata.org/"&gt;Pandas&lt;/a&gt; attempts to read in a 3.5 GB CSV. 
+
+&lt;br /&gt;
+&lt;br /&gt;
+I've tried using dask, which works, but I need the df as a Pandas dataframe later in the notebook. Converting the df also ends the kernel. 
+
+&lt;br /&gt;
+&lt;br /&gt;
+Do you know of anyway around this problem? I was running the notebook on a Macbook Pro with 8gb of RAM.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h2&gt;
+Response from instructor&lt;/h2&gt;
+&lt;i&gt;Question&lt;/i&gt;: is the data in the CSV sorted in some order? Or are rows randomly ordered?&lt;br /&gt;
+&lt;br /&gt;
+Since you are on a Mac, you can manipulate the file from the command line without opening it.&lt;br /&gt;
+In a notebook, you can run the following command:&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;
+!head -n 100 filename.csv&lt;/span&gt;&lt;br /&gt;
+That will show you the first 100 lines of the CSV.&lt;br /&gt;
+The "!" gets you into the host terminal.
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Question&lt;/i&gt;: Could you do your analysis on a subset of the content in the CSV?
+
+&lt;br /&gt;
+&lt;br /&gt;
+To limit the number of rows read by Pandas, try&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;
+df = pandas.read_csv('filename.csv',nrows=100)&lt;/span&gt;&lt;br /&gt;
+&lt;a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html"&gt;citation&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+The reduced filesize should allow you to analyze part of the data without causing your computer to crash.
+
+
+
+&lt;br /&gt;
+&lt;br /&gt;
+Since you're using a Mac, you can also play with data in the terminal (rather than in Jupyter).&lt;br /&gt;
+To see how many lines are in the file, use&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;cat filename.csv | wc -l
+
+&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+Suppose the file has 1000 lines. To create a new file that contains only 100 lines, use&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;head -n 100 filename.csv &amp;gt; filename_first_100.csv
+
+&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: inherit;"&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span style="font-family: inherit;"&gt;These same commands would work in a Jupyter notebook when the "!" is appended to the front.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-05-15T01:22:22.330Z</blogger:created>
+    <published>2019-05-15T01:29:00Z</published>
+    <updated>2019-05-22T13:03:37.264Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='pandas'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='jupyter'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='file size'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2516677032501810628</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: is all processing in Python performed in memory?</title>
+    <content type='html'>&lt;h2&gt;
+Question from student&lt;/h2&gt;
+Is everything in Python processed in memory?&lt;br /&gt;
+&lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+By default, yes. There are ways to process data on disk. One example is use of &lt;a href="https://en.wikipedia.org/wiki/Hierarchical_Data_Format"&gt;HDF5&lt;/a&gt;. There is Python support for performing operations with HDF5 on disk when the data is too big to be loaded into memory.</content>
+    <blogger:created>2019-05-22T13:08:58.779Z</blogger:created>
+    <published>2019-05-22T13:09:00.002Z</published>
+    <updated>2019-05-22T13:09:47.191Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2572003386596710699</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>slides and videos from data science meetup events</title>
+    <content type='html'>&lt;a href="https://www.youtube.com/watch?v=1MXwbu2Hejk"&gt;video&lt;/a&gt; and &lt;a href="https://www.slideshare.net/DataWorksMD/bringing-data-reliability-performance-to-data-lakes"&gt;slides&lt;/a&gt; for "Making Apache Spark Better With Delta Lake"&lt;br /&gt;
+&lt;a href="https://www.meetup.com/DataWorks/events/267676934/"&gt;https://www.meetup.com/DataWorks/events/267676934/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The &lt;a href="https://www.youtube.com/watch?v=JklA7FNUVhY"&gt;video&lt;/a&gt; and &lt;a href="https://www.slideshare.net/DataWorksMD/data-works-connect-data-and-devices-with-apache-nifiexport-192080968"&gt;slides&lt;/a&gt; for a talk on NiFi.&lt;br /&gt;
+https://www.meetup.com/DataWorks/events/265433970/&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The&amp;nbsp;&lt;a href="https://www.youtube.com/watch?v=Y3b4Cnnilfw"&gt;video&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://www.slideshare.net/DataWorksMD/introduction-to-machine-learning-180570889"&gt;slides&lt;/a&gt;&amp;nbsp;for "Introduction to Machine Learning" by Stephen Scarbrough&lt;br /&gt;
+https://www.meetup.com/DataWorks/events/264711404</content>
+    <blogger:created>2020-02-08T14:07:49.842Z</blogger:created>
+    <published>2020-02-08T15:24:00.001Z</published>
+    <updated>2020-03-01T21:29:14.824Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='recordings'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='meetup'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2574403902838939694</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>plotting geo data</title>
+    <content type='html'>&lt;a href="https://gawron.sdsu.edu/python_for_ss/course_core/book_draft/visualization/visualizing_geographic_data.html"&gt;https://gawron.sdsu.edu/python_for_ss/course_core/book_draft/visualization/visualizing_geographic_data.html&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://jonathansoma.com/lede/foundations-2017/classes/geopandas/mapping-with-geopandas"&gt;http://jonathansoma.com/lede/foundations-2017/classes/geopandas/mapping-with-geopandas&lt;/a&gt;</content>
+    <blogger:created>2019-10-06T15:37:23.653Z</blogger:created>
+    <published>2019-10-06T15:37:00.002Z</published>
+    <updated>2019-10-06T15:37:33.928Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-2929031236283992983</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>data science interview tips</title>
+    <content type='html'>&lt;i&gt;Disclaimer&lt;/i&gt;: In my career path I have never interviewed for a data science
+position. This post is based on feedback from other data science instructors.&lt;br /&gt;
+&lt;br /&gt;
+For standard interviews, there are common questions that you should be
+prepared to answer. See&lt;br /&gt;
+&lt;a href="https://www.google.com/search?q=interview+questions"&gt;https://www.google.com/search?q=interview+questions&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+For technical interviews, there may be software-related questions or
+general problem-solving questions. 
+See&lt;br /&gt;
+&lt;a href="https://www.google.com/search?q=python+interview+questions"&gt;https://www.google.com/search?q=python+interview+questions&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.google.com/search?q=data+science+interview+questions"&gt;https://www.google.com/search?q=data+science+interview+questions&lt;/a&gt;&lt;br /&gt;
+Tech interview handbook:&amp;nbsp;&lt;a href="https://yangshun.github.io/tech-interview-handbook/introduction"&gt;https://yangshun.github.io/tech-interview-handbook/introduction&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+One data scientist I talked with said he interviews at least a couple times about every three years just to see if he wants to stay at his current job.&amp;nbsp; There are a couple ways the interviews go:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;A white board coding interview, seen those at Google and Bloomberg. He says they are a little obnoxious and it helps to practice. He recommends programing in vi with no autocomplete and mentally debug the code. He suggests problems from project Euler and&amp;nbsp;HackerRank.&lt;/li&gt;
+&lt;li&gt;phone coding interviews to which are done on shared Google docs.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Another style is more like what is described on &lt;a href="https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/"&gt;https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;you talk about a project you've worked on, what was interesting, what was hard, and what you are you proud of.&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+Interviewing is a skill that takes practice. Different interview formats require different approaches to practicing -- in-person is distinct from phone interview.&lt;br /&gt;
+&lt;br /&gt;
+In addition to technical aspects, be equally prepared for the "soft" questions. See&amp;nbsp;&lt;a href="https://hire.google.com/articles/culture-fit-interview-questions/"&gt;https://hire.google.com/articles/culture-fit-interview-questions/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+&lt;br /&gt;&lt;/h3&gt;
+</content>
+    <blogger:created>2019-08-18T13:16:35.926Z</blogger:created>
+    <published>2019-08-18T13:21:00.001Z</published>
+    <updated>2019-09-28T03:02:58.616Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-3380093949353178085</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>cost of concurrency</title>
+    <content type='html'>Normally we think that if we apply more resources to doing a given amount of work, the amount of time to complete the work should be decreased. This is not true in the case of computing, and the same applies in human interaction. 
+
+
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://1.bp.blogspot.com/-AvcN7jMdEmY/Xt1VatVTxsI/AAAAAAAA_OY/P4SopOsSSboStV7wDR-tUrYNThQwbYQ_gCLcBGAsYHQ/s1600/comparison%2Bof%2Bserial%2Band%2Bconcurrent.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="570" data-original-width="801" height="452" src="https://1.bp.blogspot.com/-AvcN7jMdEmY/Xt1VatVTxsI/AAAAAAAA_OY/P4SopOsSSboStV7wDR-tUrYNThQwbYQ_gCLcBGAsYHQ/s640/comparison%2Bof%2Bserial%2Band%2Bconcurrent.png" width="640" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+Figure 1: Left side (green rectangle) is a single serial process. Right side is a process that has been delegated to 4 separate concurrent threads.&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div class="separator" style="clear: both; text-align: left;"&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:created>2020-06-07T20:55:09.456Z</blogger:created>
+    <published>2020-06-07T21:00:00.002Z</published>
+    <updated>2020-06-07T21:00:45.576Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-3396351353997138490</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: What is a parser?</title>
+    <content type='html'>The parser options for &lt;a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/"&gt;Beautifulsoup&lt;/a&gt; tell the
+&lt;a href="https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"&gt;Beautifulsoup&lt;/a&gt; library how convert a sequence of characters into more
+abstract data structures. That's possible because the languages HTML
+and XML have grammars -- rules of which characters can follow which
+other characters.  See
+&lt;a href="https://en.wikipedia.org/wiki/Parsing#Computer_languages"&gt;https://en.wikipedia.org/wiki/Parsing#Computer_languages&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+This is the same process humans go through when listening to (or
+reading) a language. How we translate the symbols or sounds into ideas
+and concepts and feelings is by parsing the components using a
+grammar. Different languages have different grammars (conventions
+about which symbols follow which other symbols, or which sounds follow
+which other sounds).&lt;br /&gt;
+</content>
+    <blogger:created>2019-09-21T23:37:49.015Z</blogger:created>
+    <published>2019-09-21T23:39:00.002Z</published>
+    <updated>2019-09-21T23:39:35.494Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='parser'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='beautifulsoup'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-3426355631714991120</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>normalization for comparison of categorical data</title>
+    <content type='html'>When characterizing data and comparing it with other data, normalization is an important aspect. Unfortunately, the word "&lt;a href="https://en.wikipedia.org/wiki/Normalization_(statistics)"&gt;normalization&lt;/a&gt;" is overused in data science and statistics. The sense I'm referring to is illustrated by the following two use cases. If you'd prefer the concept in video format, see&amp;nbsp;&lt;a href="https://youtu.be/rPzvzkhYhzk"&gt;this video&lt;/a&gt;.&lt;br /&gt;
+&lt;em&gt;&lt;br /&gt;&lt;/em&gt;
+&lt;em&gt;Example 1&lt;/em&gt;:&lt;br /&gt;
+A Data 601 project that investigated Transportation Security Agency property damage claims found that JFK and Los Angeles airports had the highest claims filed, while BWI was ranked approximately 20th in the US. This ranking is valid but unsurprising since Baltimore is smaller than NYC and LA. Using the same data, a comparison of "which airports are outliers in terms of number of claims filed?" is more interesting and would require normalization. Specifically, we would need to normalize the ranking with respect to "number of passengers processed by TSA".&lt;br /&gt;
+&lt;em&gt;&lt;br /&gt;&lt;/em&gt;
+&lt;em&gt;Example 2&lt;/em&gt;:&lt;br /&gt;
+A separate Data 601 project looked at automotive accidents in the span of a year in one state. The author reported that Toyotas and Fords were most frequently reported make, with luxury cars (Lexus, BMW) involved in fewer accidents. In order to determine whether these results were unusual, the comparison of "how many vehicles of each make are on the road" would be a meaningful denominator to use in normalization.&lt;br /&gt;
+&lt;br /&gt;
+To summarize, determining when to normalize requires two questions:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Which analysis needs normalization?&lt;/em&gt; &lt;strong&gt;Answer&lt;/strong&gt;: When attempting to find outliers for numerical data in different categories, normalization is necessary. In the two examples, the categories were "airport" and "vehicle make," respectively.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;What is a good choice for the denominator?&lt;/em&gt; &lt;strong&gt;Answer&lt;/strong&gt;: use the units associated with the question being asked. In the first example, "Do any airports (the category) have an unusual number of claims?" has the units "claims per airport." For the second example, "Does any vehicle make (the category) have an unusual number of accidents?" has the units "accidents per vehicle make."&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <blogger:created>2020-03-14T14:53:29.853Z</blogger:created>
+    <published>2020-03-14T14:54:00Z</published>
+    <updated>2020-03-14T14:56:54.431Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='normalization'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-3462667981251401865</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>videos on cloud infrastructure</title>
+    <content type='html'>For discussions involving "the cloud", I find it helpful to have a mental picture of what the facilities look like and how they operate. To help you build a better mental model of "the cloud" and the scale of operations, here are a few videos:
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=XZmGGAbHqa0"&gt;Google Datacenter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=S2zguwKvlQk"&gt;Azure Datacenter&lt;/a&gt; given by &lt;a href="https://en.wikipedia.org/wiki/Mark_Russinovich"&gt;Mark Russinovich&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I can't speak to the validity of &lt;a href="https://www.youtube.com/watch?v=P2OlHrZQDUM"&gt;this video&lt;/a&gt;, as it isn't from Amazon.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <blogger:created>2019-08-12T14:57:12.224Z</blogger:created>
+    <published>2019-08-12T14:58:00Z</published>
+    <updated>2019-08-12T14:58:23.328Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-3571310862049288702</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>tips for instructors using Blackboard</title>
+    <content type='html'>&lt;h3&gt;
+Quizzes in Blackboard&amp;nbsp;&lt;/h3&gt;
+To construct quizzes in Blackboard. See&lt;br /&gt;
+Course Management &amp;gt; Course Tools &amp;gt; Tests, Surveys, and Pools &amp;gt; Tests&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+Grading .ipynb notebooks in Blackboard&lt;/h3&gt;
+Blackboard isn't good for working with code, so I have students submit their .ipynb files.&lt;br /&gt;
+Once their submissions are in Blackboard, I bulk download the files:&lt;br /&gt;
+Course Management &amp;gt; Grade Center &amp;gt; Full Grade center &amp;gt; click the gray arrow next to the column title &amp;gt; Assignment file download&lt;br /&gt;
+Then I review all their files and input a grade for the assignment via&lt;br /&gt;
+Course Management &amp;gt; Grade Center &amp;gt; Needs Grading.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+No names on assignment submissions&lt;/h3&gt;
+I require students to not include their name on submissions to minimize any bias I may have towards students.&lt;br /&gt;
+In Blackboard, I enable anonymous submissions. These automatically are converted to being associated with a student name after a pre-determined deadline.&lt;br /&gt;
+When creating an assignment in Blackboard,&lt;br /&gt;
+Grading &amp;gt; Grading Options &amp;gt;&amp;nbsp; Enable Anonymous Grading&lt;br /&gt;
+disable anonymous grading on a specific date, eg the day after you've graded it.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+Why I use off-line .ipynb notebooks rather than colab&lt;/h3&gt;
+I have an assignment that requires students to perform a bulk analysis of their previously submitted notebooks. This requires them to recognize that the notebook content is merely a JSON file which can be analyzed in Python.&lt;br /&gt;
+&lt;br /&gt;
+I also use the offline .ipynb notebooks when executing the notebooks in bulk to detect which notebooks have errors, how long execution takes, and converting the .ipynb to HTML or PDF (for printing in use with in-person peer review).&lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Bulk analysis for plagiarism issues.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;h3&gt;
+Blackboard screencasts to YouTube&lt;/h3&gt;
+&lt;div&gt;
+&lt;a href="https://www.youtube.com/playlist?list=PL1Cq3f73cFmH-cUXvpDaUJD568PToePmc"&gt;https://www.youtube.com/playlist?list=PL1Cq3f73cFmH-cUXvpDaUJD568PToePmc&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+</content>
+    <blogger:created>2019-12-22T13:54:35.971Z</blogger:created>
+    <published>2019-12-22T14:01:00.001Z</published>
+    <updated>2019-12-22T14:01:53.394Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-3950805431194027032</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: what from Python do I need to learn?</title>
+    <content type='html'>&lt;a href="https://treyhunner.com/2019/05/python-builtins-worth-learning/"&gt;https://treyhunner.com/2019/05/python-builtins-worth-learning/&lt;/a&gt;&lt;br /&gt;&lt;i&gt;
+Comments&lt;/i&gt;: &lt;a href="https://news.ycombinator.com/item?id=19971274"&gt;https://news.ycombinator.com/item?id=19971274&lt;/a&gt;</content>
+    <blogger:created>2019-05-22T13:03:53.884Z</blogger:created>
+    <published>2019-05-22T13:05:00.001Z</published>
+    <updated>2019-05-22T13:05:05.522Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-4241512373406929207</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Feedback to students for assignments</title>
+    <content type='html'>Nice citations.&lt;br /&gt;
+&lt;br /&gt;
+Great use of comments!&lt;br /&gt;
+&lt;br /&gt;
+Code is well structured.&lt;br /&gt;
+&lt;br /&gt;
+Suggestion: break the code into separate code cells. Then you can execute the cells in order.&lt;br /&gt;
+&lt;br /&gt;
+-10: need to include the assignment description at the top of the notebook in a Markdown cell.&lt;br /&gt;
+Please see&lt;br /&gt;
+Blackboard &amp;gt; Course Materials &amp;gt; "How Jupyter notebooks are graded"&lt;br /&gt;
+&lt;br /&gt;
+The rubric for each assignment is included with the assignment description.&lt;br /&gt;
+&lt;br /&gt;
+-1: though the code works﻿﻿﻿, you've overloaded the "list" class&lt;br /&gt;
+-1: though the code works﻿﻿﻿, you've overloaded "str"&lt;br /&gt;
+https://www.w3schools.com/python/python_ref_keywords.asp﻿﻿﻿﻿﻿﻿﻿&lt;br /&gt;
+&lt;br /&gt;
+-5: improper indentation -- use 4 spaces&lt;br /&gt;
+&lt;br /&gt;
+-10: notebooks contains errors that prevent execution of later cells. Convert the cell to "raw" to avoid running the cell; then I don't grade that code.&lt;br /&gt;
+&lt;br /&gt;
+Good code; the implementation is clear even without comments.&lt;br /&gt;
+&lt;br /&gt;
+For code you don't want graded, please convert the cell to "raw"&lt;br /&gt;
+&lt;br /&gt;
+Recommendation: Use a Markdown cell for the assignment description&lt;br /&gt;
+&lt;br /&gt;
+Recommendation: Use a Markdown cell for the comments that describe a cell&lt;br /&gt;
+&lt;br /&gt;
+Recommendation: avoid importing unnecessary libraries&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Please email me or set up an appointment to meet in person if you'd like to review this assignment.</content>
+    <blogger:created>2020-02-05T03:04:34.719Z</blogger:created>
+    <published>2020-02-05T03:06:00Z</published>
+    <updated>2020-02-12T01:36:19.479Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-4511038913535047838</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>advice for a new data scientist</title>
+    <content type='html'>See also&amp;nbsp;&lt;a href="https://en.wikibooks.org/wiki/Data_Science:_An_Introduction/A_Mash-up_of_Disciplines"&gt;https://en.wikibooks.org/wiki/Data_Science:_An_Introduction/A_Mash-up_of_Disciplines&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Technical skills&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;reason quantitatively about a problem in one or more programming languages&lt;/li&gt;
+&lt;li&gt;construct a model that describes your situation without requiring a computer&lt;/li&gt;
+&lt;li&gt;have familiarity with a variety of data structures (to include in a model)&lt;/li&gt;
+&lt;li&gt;validate the sanity of your data (both inputs and outputs) and your model by comparing to reality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Soft skills:&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;be able to enumerate relevant stakeholders&lt;/li&gt;
+&lt;li&gt;have the courage to approach people you don't know to gain new insights&lt;/li&gt;
+&lt;li&gt;manage your reputation and your political capital&lt;/li&gt;
+&lt;li&gt;interact with a range of people -- technical and not technical, experience and inexperienced, powerful and otherwise&lt;/li&gt;
+&lt;li&gt;have sufficient communication ability to compensate for the inability of those around you&lt;/li&gt;
+&lt;li&gt;maintain curiosity about your environment and the dynamic relationship of people and data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;br /&gt;
+How to get started:&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;Identify small challenges that make the workflows of individuals. You'll be helping out people one-on-one, which builds your credibility and reputation&lt;/li&gt;
+&lt;li&gt;Identify big challenges. Learn the history by talking to people with experience. What attempts have previously failed and why? Rather than creating a &lt;a href="https://en.wikipedia.org/wiki/Minimum_viable_product"&gt;minimum viable product&lt;/a&gt; that solves the issue, create an MVP that addresses 1% of the big challenge.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+Data Science is about people more than just sciencing the data.&lt;br /&gt;
+&lt;br /&gt;
+Observations from another instructor:&lt;br /&gt;
+&lt;blockquote&gt;
+Data scientists should expect to do whatever comes your way, even those tasks that you may not be good at or may not be part of your responsibility. Embrace&amp;nbsp; every new opportunity to explore new things and learn new skills. Data scientists are explorers. Explorers by the very definition is to go into an unknown world and explore with an open mind and a passionate heart.&lt;br /&gt;
+&lt;br /&gt;
+Data scientists are not the only species in the human race. There are many others who are experts in their own fields. Data scientists must respect, consult, and support domain experts and decision makers. Data scientists should avoid overestimating the utility of science and technology and underestimating the values of expert knowledge, experience, and judgement. For example, try not to tell people that your machine learning results and data visualizations will solve their problems. Instead, ask them if these results and visualizations make sense and what you can do to help them make decisions and solve problems.&amp;nbsp;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+There are 100,000 projects on github that have more than 1000 commits in 2019.&lt;br /&gt;
+--&amp;gt; People are the value, not the software.&lt;br /&gt;
+&lt;br /&gt;
+Software will be, at best, as reliable as the author of the software.&amp;nbsp;&lt;/div&gt;
+</content>
+    <blogger:created>2019-11-13T03:36:05.487Z</blogger:created>
+    <published>2019-11-13T03:41:00.001Z</published>
+    <updated>2020-04-09T23:46:47.790Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-4655416672411114004</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: function argument types</title>
+    <content type='html'>&lt;h2&gt;
+Question from Student&lt;/h2&gt;
+How will the programmer know which data &lt;a href="https://docs.python.org/3/library/typing.html"&gt;type&lt;/a&gt; to send to a function?&lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+Python uses &lt;a href="https://en.wikipedia.org/wiki/Duck_typing"&gt;duck typing&lt;/a&gt;, defined as&amp;nbsp;"an object's suitability is determined by the presence of certain methods and properties, rather than the type of the object itself."
+
+&lt;br /&gt;
+&lt;br /&gt;
+I suspect the motive for using duck typing is &lt;a href="https://hackernoon.com/python-duck-typing-or-automatic-interfaces-73988ec9037f"&gt;improved ease of coding&lt;/a&gt; for simple code. The technical explanation is that "other languages use variables that have a type and a value; Python does not have variables -- it has names pointing to objects, which know their type." [&lt;a href="https://stackoverflow.com/questions/2489669/function-parameter-types-in-python/21384492#comment2574436_2489692"&gt;source&lt;/a&gt;]&lt;br /&gt;
+The benefit of simplification results in costs elsewhere in the use of Python. 
+
+&lt;br /&gt;
+&lt;br /&gt;
+"The most Pythonic idiom is to clearly document what the function expects and then just try to use whatever gets passed to your function and either let exceptions propagate or just catch attribute errors and raise a TypeError instead. Type-checking should be avoided as much as possible as it goes against duck-typing." [&lt;a href="https://stackoverflow.com/a/19684782/1164295"&gt;source&lt;/a&gt;]
+
+&lt;br /&gt;
+&lt;br /&gt;
+For programmers concerned that the variable type in a function is going to cause a problem, &lt;a href="https://www.geeksforgeeks.org/type-isinstance-python/"&gt;use isinstance() rather than type()&lt;/a&gt;.
+
+&lt;br /&gt;
+&lt;br /&gt;
+For programmers who want to provide some type checking, see &lt;a href="https://stackoverflow.com/questions/2489669/function-parameter-types-in-python/21384492#21384492"&gt;bear typing&lt;/a&gt; (reference &lt;a href="https://www.python.org/dev/peps/pep-3107/"&gt;PEP 3107&lt;/a&gt;)
+
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;def pick(l: list, index: int) -&amp;gt; int:&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;&amp;nbsp; &amp;nbsp; return l[index]&lt;/span&gt;&lt;br /&gt;
+The function "pick takes 2 parameters, a list l and an integer index. The function should return an integer.""
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+A good thread on pros and cons of type hinting in practice&lt;br /&gt;
+&lt;a href="https://www.reddit.com/r/Python/comments/5nb0si/why_optional_type_hinting_in_python_is_not_that/"&gt;https://www.reddit.com/r/Python/comments/5nb0si/why_optional_type_hinting_in_python_is_not_that/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+A really good overview starting from basics:&lt;br /&gt;
+&lt;a href="https://realpython.com/python-type-checking/"&gt;https://realpython.com/python-type-checking/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+https://news.ycombinator.com/item?id=19916089&lt;br /&gt;&lt;br /&gt;https://docs.python.org/3/glossary.html#term-duck-typing&lt;br /&gt;&lt;br /&gt;https://hplgit.github.io/num-methods-for-PDEs/doc/pub/softeng1/sphinx/._main_softeng1004.html&lt;br /&gt;http://swcarpentry.github.io/2014-04-14-wise/advanced/python/testing/index.html&lt;br /&gt;https://www.pythoncentral.io/validate-python-function-parameters-and-return-types-with-decorators/&lt;br /&gt;https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b&lt;br /&gt;https://stackoverflow.com/questions/19684434/best-way-to-check-function-arguments-in-python/37961120&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-09-06T01:15:13.361Z</blogger:created>
+    <published>2019-09-06T01:39:00.001Z</published>
+    <updated>2019-09-06T01:52:32.386Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-4681548840294455299</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>JSON, YAML, XML</title>
+    <content type='html'>Why every text standard is insufficient to solve every problem&lt;br /&gt;
+&lt;br /&gt;
+YAML&lt;br /&gt;
+&lt;a href="https://arp242.net/yaml-config.html"&gt;https://arp242.net/yaml-config.html&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://news.ycombinator.com/item?id=20731160"&gt;https://news.ycombinator.com/item?id=20731160&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+JSON&lt;br /&gt;
+&lt;a href="http://seriot.ch/parsing_json.php"&gt;http://seriot.ch/parsing_json.php&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://news.ycombinator.com/item?id=20724672"&gt;https://news.ycombinator.com/item?id=20724672&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+XML&lt;br /&gt;
+&lt;a href="https://softwareengineering.stackexchange.com/questions/61198/if-xml-is-so-bad-why-do-so-many-people-use-it"&gt;https://softwareengineering.stackexchange.com/questions/61198/if-xml-is-so-bad-why-do-so-many-people-use-it&lt;/a&gt;</content>
+    <blogger:created>2019-08-18T19:23:48.073Z</blogger:created>
+    <published>2019-08-18T19:44:00.001Z</published>
+    <updated>2019-08-18T19:44:12.377Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-4929085164218775792</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Spark Scala Jupyter notebook with spylon kernel in Docker</title>
+    <content type='html'>If exploring Scala is the goal, see&amp;nbsp;&lt;a href="https://scalafiddle.io/"&gt;https://scalafiddle.io/&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://docs.scala-lang.org/tutorials/tour/basics.html.html"&gt;https://docs.scala-lang.org/tutorials/tour/basics.html.html&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Here we set up a Jupyter notebook using Docker. The notebook provides a Spylon kernel&lt;br /&gt;
+&lt;br /&gt;
+Docker image is from&amp;nbsp;&lt;a href="https://hub.docker.com/r/jupyter/all-spark-notebook/"&gt;https://hub.docker.com/r/jupyter/all-spark-notebook/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;docker pull jupyter/all-spark-notebook&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;docker run -it -e JUPYTER_ENABLE_LAB=yes -p 8888:8888 -v "$PWD":/home/jovyan jupyter/all-spark-notebook:latest start.sh jupyter lab --LabApp.token=''&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+In the notebook, test code snippet from&lt;br /&gt;
+&lt;a href="https://jupyter-docker-stacks.readthedocs.io/en/latest/using/specifics.html#apache-spark"&gt;https://jupyter-docker-stacks.readthedocs.io/en/latest/using/specifics.html#apache-spark&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;object HelloWorld {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;&amp;nbsp; &amp;nbsp; def main(args: Array[String]) {&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; println("Hello, world!")&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;}&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;
+&lt;a href="https://1.bp.blogspot.com/-5ZCet6E-3-c/XXf1AdCxtlI/AAAAAAAAzM4/d4Y5iyxiMisUBAW31zlSxUQ3UkYJMEQdgCLcBGAs/s1600/Screen%2BShot%2B2019-09-10%2Bat%2B3.02.24%2BPM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" data-original-height="261" data-original-width="680" src="https://1.bp.blogspot.com/-5ZCet6E-3-c/XXf1AdCxtlI/AAAAAAAAzM4/d4Y5iyxiMisUBAW31zlSxUQ3UkYJMEQdgCLcBGAs/s1600/Screen%2BShot%2B2019-09-10%2Bat%2B3.02.24%2BPM.png" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-09-10T18:53:32.898Z</blogger:created>
+    <published>2019-09-10T19:08:00Z</published>
+    <updated>2019-09-10T19:10:04.908Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-5028845551710867614</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>DRAFT</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>automation libraries for Python</title>
+    <content type='html'>import pyautogui&lt;br /&gt;
+import keyboard</content>
+    <blogger:created>2020-08-12T19:56:04.963Z</blogger:created>
+    <published>2020-08-12T20:34:00Z</published>
+    <updated>2020-08-12T20:34:02.536Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-5041353345765606980</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: what does "from X import Y" mean?</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;: What does &lt;span style="font-family: Courier New, Courier, monospace;"&gt;from datetime import datetime&lt;/span&gt; mean? Why not just import datetime?  
+
+&lt;br /&gt;
+&lt;i&gt;&lt;br /&gt;&lt;/i&gt;
+&lt;i&gt;Response&lt;/i&gt;:
+
+&lt;br /&gt;
+"datetime" is the name of the file being referenced -- that's the "from" part.&lt;br /&gt;
+The second "datetime" is the name of the class inside the file -- that's the "import" part.
+
+&lt;br /&gt;
+&lt;br /&gt;
+The &lt;span style="font-family: Courier New, Courier, monospace;"&gt;from datetime import datetime&lt;/span&gt;&amp;nbsp;gives me access to the class. 
+See
+&lt;a href="https://github.com/python/cpython/blob/master/Lib/datetime.py#L1562"&gt;https://github.com/python/cpython/blob/master/Lib/datetime.py#L1562&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Within the class you have functions like "now()". That's why you can use&lt;br /&gt;&lt;span style="font-family: Courier New, Courier, monospace;"&gt;
+import datetime&lt;br /&gt;
+datetime.datetime.now()&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+</content>
+    <blogger:created>2020-04-02T15:42:23.670Z</blogger:created>
+    <published>2020-04-02T15:44:00.002Z</published>
+    <updated>2020-04-02T15:44:28.745Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='Python'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-5210568687968202056</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>DRAFT</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>grading notebooks from Blackboard</title>
+    <content type='html'>Download all .ipynb from Blackboard
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;for f in *; do mv "$f" "$(echo "$f" | sed 's/week 2  shuffle list_Anonymous Student (Attempt ID  1//' )"; done
+&lt;/span&gt;</content>
+    <blogger:created>2019-09-11T00:07:15.945Z</blogger:created>
+    <published>2019-09-11T00:07:00.002Z</published>
+    <updated>2019-09-11T00:07:21.040Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-5603298445761757404</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: when to use Pandas versus Spark versus MapReduce</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;: how to decide between options like spark or mapreduce, especially given that I don't know much about the differences?&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt; Pandas is great for data for a few MB -- in-memory local analysis
+&lt;/li&gt;
+&lt;li&gt; Spark is for distributed in-memory analysis -- GB to TB -- when in-memory local capacity is insufficient
+&lt;/li&gt;
+&lt;li&gt; MapReduce is distributed analysis on disk: petabytes of data (when the in-memory capacity is insufficient)
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+</content>
+    <blogger:created>2020-04-23T01:47:49.230Z</blogger:created>
+    <published>2020-04-23T01:49:00.001Z</published>
+    <updated>2020-04-23T01:49:14.369Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-5606488571864508682</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: How to automate sending encrypted emails?</title>
+    <content type='html'>&lt;h2&gt;
+Question from Student&lt;/h2&gt;
+How to automate sending encrypted emails?&lt;br /&gt; &lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+&lt;br /&gt;
+There are two ways to interpret this question. One aspect is the encryption between the sender (you) and the server (eg Gmail), the other is encrypting the email body so that no one besides the intended recipient can view the content.&lt;br /&gt;
+When you use &lt;a href="https://en.wikipedia.org/wiki/SMTPS"&gt;SMTP Secure&lt;/a&gt;, the mail is transmitted in a encrypted connection but the owner of the mail server could potentially read the content. (This is how Gmail filters out spam and monetizes email with advertisements -- by reading the content).&lt;br /&gt;
+Encrpting the body of the email before sending it to the server is usually a separate step. &lt;a href="https://www.openpgp.org/"&gt;PGP&lt;/a&gt; is a standard for encryption (and applies to more than just email; see &lt;a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy"&gt;the Wikipedia entry&lt;/a&gt;). In this context, there are &lt;a href="https://www.google.com/search?q=python+pgp"&gt;libraries in Python that work with PGP&lt;/a&gt;.</content>
+    <blogger:created>2019-05-22T13:11:50.859Z</blogger:created>
+    <published>2019-05-22T13:14:00.001Z</published>
+    <updated>2019-05-22T13:14:24.748Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-6143098403033571277</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>integration of data science in a standard office context</title>
+    <content type='html'>&lt;i&gt;Student feedback&lt;/i&gt;: I could theoretically apply some of this data science technique at work, though my boss isn't super excited because there will not be anyone else that could use the python code.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Instructor response&lt;/i&gt;:&lt;br /&gt;
+&lt;div&gt;
+What you describe is relatively common -- no one else in your local environment speaks Python, so you have the extra burden of reading in from Office Documents, making the changes in Python, and then writing out to Office Documents. Any any visualizations you produce that work in Jupyter aren't accessible to your coworkers -- a webpage or PDF is what they consume.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+In that situation, I usually try to avoid having to be incorporated into their technical workflow process. Instead, what I aim for is to uncover knowledge they would have a hard time finding and then point them verbally to the specific idea that they can see using their tools. For example, a coworker may have a giant spreadsheet that is very complex. If I can analyze that using python and I find something interesting, then I would point them (in person) to the observation that they can then use their Excel knowledge to confirm. (Rather than trying to provide my results in electronic format.) Does that make sense? This is a hybrid of Python for Data Science and in-person discussions.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+Sometimes what I think is "new knowledge" is either a mistaken understanding on my part (in which case I learn the issues better) or a feature the person knew about but didn't tell me (in which case I demonstrate interest in the topic).&amp;nbsp;&lt;/div&gt;
+</content>
+    <blogger:created>2020-03-08T22:23:52.725Z</blogger:created>
+    <published>2020-03-08T22:23:00.002Z</published>
+    <updated>2020-03-08T22:23:58.911Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-6632787415023834387</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>DRAFT</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>what drives people to commit research misconduct?</title>
+    <content type='html'>The content of this post from a pamphlet published by the Office of Research Integrity at Johns Hopkins&lt;br /&gt;
+&lt;br /&gt;
+What drives people to commit research misconduct?&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Poor supervision: "I was scared to go to [research lead]. He used to scream and yell at me when things did not work as planned."&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Inadequate training: "After two years of a postdoctoral fellowship...I still don't know how to publish &lt;a href="https://en.wikipedia.org/wiki/Western_blot"&gt;Western blot&lt;/a&gt; data."&lt;/li&gt;
+&lt;li&gt;Competitive pressures: "I felt it was necessary to get a paper in a high-profile journal in order to get a faculty position."&lt;/li&gt;
+&lt;li&gt;Personal circumstances: "[I] had been apply for a green card and felt pressured to make a good paper and get good publications."&lt;/li&gt;
+&lt;li&gt;Individual psychology: "Half of me wanted to make [my research lead] proud. The other half was terrified of failing so I fabricated a piece of data."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;i&gt;Source of quotes&lt;/i&gt;: people who admitted to research misconduct in closed Office of Research Integrity cases.&amp;nbsp;&lt;/div&gt;
+</content>
+    <blogger:created>2020-01-25T15:56:23.341Z</blogger:created>
+    <published>2020-01-25T17:50:00Z</published>
+    <updated>2020-01-25T17:50:05.558Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-6792919376550005218</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: how to continue to learn Python outside the classroom</title>
+    <content type='html'>&lt;h2&gt;
+Question from Student&amp;nbsp;&lt;/h2&gt;
+Do you had any suggestions or know of any resources that I could use to continue to practice writing programs/scripts in Python? I'm looking for something similar to how our homeworks are, in that we are given a task or problem to solve. I don't want to lose to skills I've learned by not continuing to problem solve programmatically.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+There are a few online resources.  One popular option is &lt;a href="https://projecteuler.net/"&gt;https://projecteuler.net/&lt;/a&gt;&lt;br /&gt;
+See also&amp;nbsp;&lt;a href="https://leetcode.com/"&gt;https://leetcode.com/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Another concept is &lt;a href="https://en.wikipedia.org/wiki/Code_golf"&gt;https://en.wikipedia.org/wiki/Code_golf&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://www.google.com/search?q=code+golf+python"&gt;https://www.google.com/search?q=code+golf+python&lt;/a&gt;&lt;br /&gt;
+&lt;a href="https://code-golf.io/"&gt;https://code-golf.io/&lt;/a&gt;&lt;br /&gt;
+I'm not a fan of being concise, as it can lead to obfuscation.
+People who enjoy code golf indicate that it helps understand a language.
+
+&lt;br /&gt;
+&lt;br /&gt;
+A third option is to look for&lt;br /&gt;
+&lt;a href="https://www.google.com/search?q=python+interview+questions"&gt;https://www.google.com/search?q=python+interview+questions&lt;/a&gt;&lt;br /&gt;
+This is a double win -- Python programming, with a secondary benefit
+of preparing for interviews.
+
+&lt;br /&gt;
+&lt;br /&gt;
+Fourth option: look at existing implementations on&lt;br /&gt;
+&lt;a href="http://rosettacode.org/wiki/Rosetta_Code"&gt;http://rosettacode.org/wiki/Rosetta_Code&lt;/a&gt;&lt;br /&gt;
+and try implementing algorithms.&lt;br /&gt;
+&lt;a href="http://rosettacode.org/wiki/Rosetta_Code#Ways_to_Contribute"&gt;http://rosettacode.org/wiki/Rosetta_Code#Ways_to_Contribute&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Lastly, look for opportunities to automate tasks and to &lt;a href="https://stackoverflow.com/questions/tagged/python"&gt;help other people&lt;/a&gt;. 
+
+&lt;br /&gt;
+&lt;br /&gt;
+To expand beyond Python, try implementing tasks you solved in Python in other languages.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-05-19T22:37:30.663Z</blogger:created>
+    <published>2019-05-19T22:42:00.002Z</published>
+    <updated>2019-08-25T15:57:20.727Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='Python'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7009531603340931369</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Jupyter Spark in Docker</title>
+    <content type='html'>The use case for Spark is big data processing on a cluster. In contrast to MapReduce on Hadoop, Spark stores data in-memory. This makes the processing faster.&lt;br /&gt;
+&lt;br /&gt;
+If you don't have a cluster running Spark, you can still explore the environment from Jupyter. Jupyter's Spark kernel can run in a Docker container:&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-all-spark-notebook"&gt;https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-all-spark-notebook&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+To use the Docker container, you'll need to have Docker installed on your computer.&lt;br /&gt;
+Then pull the Docker image from&amp;nbsp;&lt;a href="https://hub.docker.com/r/jupyter/all-spark-notebook/"&gt;https://hub.docker.com/r/jupyter/all-spark-notebook/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style="font-family: Courier New, Courier, monospace;"&gt;docker pull jupyter/all-spark-notebook&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-07-24T13:19:37.615Z</blogger:created>
+    <published>2019-07-24T13:23:00.002Z</published>
+    <updated>2019-07-24T13:23:22.346Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7019649463955919709</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: applicability of data science to various fields</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;: Does data science apply to any field?&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+No. Digging a hole requires physical action. Planting a crop requires action. While manual labor cannot be done by using data science, techniques and skills of data science can be used to inform decisions about activities.&lt;br /&gt;
+&lt;br /&gt;
+Data science relies on a combination of domain expertise (e.g., digging holes, planting crops), computer programming, and quantitative reasoning.</content>
+    <blogger:created>2019-11-13T03:27:48.233Z</blogger:created>
+    <published>2019-11-13T03:31:00.003Z</published>
+    <updated>2019-11-13T03:31:36.970Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7067224164537319487</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>DRAFT</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Pylint for checking syntax</title>
+    <content type='html'>&lt;a href="https://en.wikipedia.org/wiki/Pylint"&gt;Pylint&lt;/a&gt; checks Python syntax.&lt;br /&gt;
+https://pypi.org/project/pylint/&lt;br /&gt;
+https://codewithoutrules.com/2016/10/19/pylint/&lt;br /&gt;
+https://www.pylint.org/
+
+&lt;br /&gt;
+&lt;br /&gt;
+To run against Jupyter, convert .ipynb to .py
+&lt;br /&gt;
+https://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline&lt;br /&gt;
+https://ipython.org/ipython-doc/3/notebook/nbconvert.html</content>
+    <blogger:created>2019-09-10T15:11:24.124Z</blogger:created>
+    <published>2019-09-10T19:21:00Z</published>
+    <updated>2019-09-10T19:21:00.972Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7076825704518522213</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>random selection of homework assignments and quizzes for course grade</title>
+    <content type='html'>Assignments and quizzes count towards 30% of the course grade.&lt;br /&gt;
+&lt;br /&gt;
+There are many assignments and quizzes in the course; not all of the submissions count towards the course grade.&amp;nbsp; The selection of which assignments and quizzes count towards the course grade are randomly selected. The random selection is not disclosed to students.&lt;br /&gt;
+&lt;br /&gt;
+The reason for this approach is illustrated by the following comparison.&lt;br /&gt;
+&lt;br /&gt;
+Scenario 1: Suppose there are 30 assignments during the semester. Then each assignment would be worth 1% of the course grade.&lt;br /&gt;
+&lt;br /&gt;
+Scenario 2: Suppose there are 60 assignments during the semester. Then each assignment would be worth 0.5% of the course grade.&lt;br /&gt;
+&lt;br /&gt;
+Scenario 3: Suppose there are 60 assignments during the semester; only half the assignments are counted toward the course grade. Then each assignment would be worth 1% of the course grade.&lt;br /&gt;
+&lt;br /&gt;
+Students in scenario 2 have more freedom to slack on assignments since they can track their course grade and project whether investing in getting a good score on an assignment will impact their final grade. In contrast, students in scenario 3 have more uncertainty about whether they should invest work in assignments.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-07-21T23:58:36.549Z</blogger:created>
+    <published>2019-07-22T00:08:00Z</published>
+    <updated>2019-07-22T00:08:42.318Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7097402297378676185</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: how to become proficient in all the technologies I hear about in data science?</title>
+    <content type='html'>&lt;em&gt;Question&lt;/em&gt;:&amp;nbsp;There are a lot of skills associated with being a good data scientist --&amp;nbsp;big data, machine learning,&amp;nbsp;visualizations,&amp;nbsp;frameworks like Spark and&amp;nbsp;Tensorflow and Keras, use of Python and R and&amp;nbsp;Tableau and Stata. &lt;strong&gt;How do I become proficient in all these technologies?&lt;/strong&gt;&lt;br /&gt; &lt;em&gt;&lt;br /&gt;&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Response&lt;/em&gt;: Having expertise in all the available technologies is unreasonable. Prioritizing skills is necessary, which is why you'll hear me mention the three areas of math, programming, and domain knowledge.&lt;br /&gt;
+To expand on those a bit, my advice is to balance expertise and awareness. You need to know just enough about all the different options in order to inform when to switch from what you know to something you need to learn. Learning about one technology (e.g., Python) deeply is better than not understanding multiple tools well. You should have awareness about the features and deficiencies of other tools in order to inform a decision about when to stop using what you are comfortable with.&lt;br /&gt;
+On the topic of math, the areas of linear algebra and statistics are most relevant to data science. Linear algebra is relevant for computationally complex problems, like when designing machine learning algorithms. Since most data scientists are not in the business of creating novel machine learning implementations, statistics should be the default area of education. (&lt;em&gt;Disclaimer&lt;/em&gt;: I don't teach much statistics in Data 601.)&lt;br /&gt;
+Domain expertise is challenging to gain, so as a new data scientist you should aim to learn the jargon, motivations, and challenges in the domain that seems most interesting to you.</content>
+    <blogger:created>2020-04-02T15:38:59.030Z</blogger:created>
+    <published>2020-04-02T15:39:00Z</published>
+    <updated>2020-04-02T15:39:03.993Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7106478945717944821</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: How does Python read and interpret input?</title>
+    <content type='html'>&lt;h2&gt;
+Question from Student&lt;/h2&gt;
+How does Python read and interpret input?&lt;br /&gt; &lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+&lt;br /&gt;
+One reason Jupyter can be complicated to learn is because it is composed of many different tools stacked in layers. Understanding how you are able to write code on a computer relies on being able to grasp each tool and how it relates to other tools in the stack. For a quick overview, see &lt;a href="https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html#notebooks"&gt;How Jupyter works&lt;/a&gt;. As indicated in the figure on that page, you rely on a web browser (eg Firefox, Chrome, Internet Explorer) to access a webserver running on your local computer. The server manages your interaction with both a .ipynb file and the kernel being used. We use a Python kernel to execute code written in the browser.&lt;br /&gt;
+&lt;br /&gt;
+The Python kernel is effectively serving in Jupyter as the &lt;a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop"&gt;REPL&lt;/a&gt;. Addressing how that works is the content of this &lt;a href="https://tech.blog.aknin.name/2010/04/02/pythons-innards-introduction/"&gt;series of posts&lt;/a&gt;.</content>
+    <blogger:created>2019-05-22T13:10:23.046Z</blogger:created>
+    <published>2019-05-22T13:11:00.002Z</published>
+    <updated>2019-05-22T13:11:36.015Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7639344377914201580</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>welcome to Data 601</title>
+    <content type='html'>Thank you for signing up for Data 601 for the &lt;a href="https://umbc.app.box.com/s/1x1sq75p3zeo7u7d3hb0yx6mpr67a2b1" rel="noreferrer noopener" target="_blank"&gt;Fall 2019 semester&lt;/a&gt;. To enable improved coverage of content in class, in this email I'm going to provide guidance on software relevant to the course.&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Watch the &lt;a href="https://youtu.be/TLov-ZwPqpc"&gt;welcome video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Contact me if you have questions&lt;/li&gt;
+&lt;li&gt;Review use of &lt;a href="https://www.youtube.com/results?search_query=python+3" rel="noreferrer noopener" target="_blank"&gt;Python 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install &lt;a href="https://www.anaconda.com/distribution/" rel="noreferrer noopener" target="_blank"&gt;Anaconda with Python 3.7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+All the software I recommend in this class is free; most of the software is &lt;a href="https://en.wikipedia.org/wiki/Open-source_software"&gt;open source&lt;/a&gt;. The use of &lt;a href="https://www.tutorialspoint.com/python3/index.htm" rel="noreferrer noopener" target="_blank"&gt;Python 3&lt;/a&gt; will be covered in class. There are many &lt;a href="https://www.guru99.com/python-tutorials.html" rel="noreferrer noopener" target="_blank"&gt;free tutorials&lt;/a&gt; for &lt;a href="https://en.wikipedia.org/wiki/Python_(programming_language)"&gt;Python&lt;/a&gt; 3 available online. There is a &lt;a href="https://www.youtube.com/playlist?list=PL0-84-yl1fUnRuXGFe_F7qSH1LEnn9LkW" rel="noreferrer noopener" target="_blank"&gt;series of videos showing use of Python 3&lt;/a&gt;, though the videos don't use Juptyer. Similarly, there are online courses offered on &lt;a href="https://www.coursera.org/learn/python?specialization=python" rel="noreferrer noopener" target="_blank"&gt;Python from University of Michigan&lt;/a&gt;. These videos and online courses are not required for Data 601; I'm providing the links if you want to improve your familiarity with &lt;a href="https://www.w3schools.com/python/" rel="noreferrer noopener" target="_blank"&gt;Python 3&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+In previous semesters for Data 601 I requested students provide advice for new Data 601 students. I've taken &lt;a href="https://imgur.com/a/34wDlGB"&gt;pictures of their responses&lt;/a&gt;. To summarize their advice, gaining familiarity with Python is useful.&lt;br /&gt;
+&lt;br /&gt;
+I recommend having&amp;nbsp;a laptop in class. We will be using Blackboard during class to vote during exercises. Having a computer to run code on and install software on is helpful. If having a laptop in class is not feasible for you, please contact me.&lt;br /&gt;
+&lt;br /&gt;
+I've posted a link to the PDFs for textbooks in Blackboard; see the"Course Materials" section. The direct link is &lt;a href="https://umbc.box.com/s/4ztkbcait085wdalpfjno1s4pv8pze3n"&gt;https://umbc.box.com/s/4ztkbcait085wdalpfjno1s4pv8pze3n&lt;/a&gt;. There are no authoritative references for the course, so I'm relying on multiple textbooks. I am not using all of the material in each of the linked textbooks. The PDFs are merely references that I may draw on during the semester.</content>
+    <blogger:created>2019-08-25T12:11:06.238Z</blogger:created>
+    <published>2019-08-25T12:14:00.002Z</published>
+    <updated>2019-08-25T13:48:34.026Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='announcement'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7777113598899981805</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: when to use a Python library versus write my own code?</title>
+    <content type='html'>&lt;h2&gt;
+Question from student&lt;/h2&gt;
+How do you know when to use a Python library? And how to know which Python library to use?&lt;br /&gt;&lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+I start by planning my attack on a challenge. Break the task into steps, then consider whether any other programmer might have faced a similar task. If yes, then search for a library that has that functionality. I may find multiple options available. Then I read the summary of each library. If that doesn't provide sufficient distinction, I then evaluate each candidate. If this sounds like it takes a lot of time and is inefficient, then you understand why solving programming challenges takes time. The good news is that you get faster and more efficient as you are exposed to additional challenges. Each challenge may be unique, but often the tasks required to address one challenge are similar to previous tasks you've solved. Therefore, experience enables efficiency. Experience comes from exposure to a variety of challenges.&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul&gt;&lt;/ul&gt;
+</content>
+    <blogger:created>2019-05-22T13:05:44.471Z</blogger:created>
+    <published>2019-05-22T13:06:00.001Z</published>
+    <updated>2019-05-22T13:06:44.469Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7815958835792413261</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>internship application timeline</title>
+    <content type='html'>&lt;h3&gt;
+&lt;span style="font-size: small; font-weight: 400;"&gt;Data Science internships are not easy to get. For a recent data science internship posting a colleague received 300+ applications.&lt;/span&gt;&lt;/h3&gt;
+&lt;div&gt;
+&lt;span style="font-size: small; font-weight: 400;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+Graduate students in STEM programs can apply for a CPT (Curriculum Practical Training) and can work full time as an intern after 2-semesters of study. Students should work with UMBC's International Education Services&lt;br /&gt;
+&lt;a href="https://ies.umbc.edu/international-students-f-1/current-students-employment/working-off-campus/"&gt;https://ies.umbc.edu/international-students-f-1/current-students-employment/working-off-campus/&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;h3&gt;
+Internship application timeline&lt;/h3&gt;
+People looking for internships should start in August, as that’s when many companies start their process. Some start in the Spring, but you can’t go back in time and get the Fall companies. For example, one company starts in August and is usually 80-90% done on hiring interns by the time Spring semester starts.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+Need a work visa?&lt;/h3&gt;
+Needing a visa makes the search process harder. Usually it is the big companies that can go through the trouble of doing a visa hire for an internship, and another reason to start earlier since its an extra wrinkle and many companies won’t both to go through the hassle. She should also be up front about needing a visa at the onset with recruiter discussion. In many cases HR can’t/wont ask that question. If they bring it up, then they are allowed to talk about it, and can quickly sort out if they can / can’t consider them at all.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-09-28T03:02:38.548Z</blogger:created>
+    <published>2019-09-28T03:02:00.002Z</published>
+    <updated>2019-11-24T23:17:51.325Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-7981064591981174295</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: should I memorize Python?</title>
+    <content type='html'>&lt;em&gt;Question&lt;/em&gt;:&amp;nbsp;Should I&amp;nbsp;have Python memorized?&amp;nbsp;Looking everything up in Google and Stackoverflow&amp;nbsp;seems inefficient.&lt;br /&gt;
+&lt;em&gt;&lt;br /&gt;&lt;/em&gt;
+&lt;em&gt;Response&lt;/em&gt;: I have been using Python for 15 years and I don't have the syntax of the language memorized, nor do I know all the features. I am familiar with the concepts and key words. Armed with those I can effectively use Google and Stackoverflow to identify potential approaches to addressing my task. I also have a decent sense of how to break a challenge into small tasks.&lt;br /&gt;
+There are programmers who do memorize the syntax and features of a language. They can program faster and more effectively than I do. I chose to focus my attention on other aspects of my job.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+</content>
+    <blogger:created>2020-03-28T21:42:34.119Z</blogger:created>
+    <published>2020-03-28T21:43:00.003Z</published>
+    <updated>2020-03-28T21:43:29.324Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8268643545144454158</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>advice from an expert programmer</title>
+    <content type='html'>I asked a friend of mine how he solves programming problems. He give me the following advice.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;
+If a problem has already been solved, spend time investigating their solution.&amp;nbsp;&lt;/h3&gt;
+Your problem may not directly correspond to any existing solutions. In that case,&lt;br /&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;decompose your problem into a sequence of simpler problems&lt;/li&gt;
+&lt;li&gt;find other people's solutions to each of the simpler problems&lt;/li&gt;
+&lt;li&gt;stitch together existing code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;
+How to become a better programmer?&lt;/h3&gt;
+&lt;div&gt;
+I find that new programmers search &lt;a href="https://stackoverflow.com/"&gt;stackoverflow&lt;/a&gt; for similar challenges and then simply use the posted solution. While this implements the above advice regarding decomposing a problem, the approach is limited as far as building knowledge.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+The progression in terms of developing skills is&lt;/div&gt;
+&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;read stack overflow&lt;/li&gt;
+&lt;li&gt;write your own code&lt;/li&gt;
+&lt;li&gt;read documentation about existing libraries - see &lt;a href="https://docs.scipy.org/doc/numpy-1.15.0/reference/internals.code-explanations.html"&gt;numpy explained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;read other people's code, e.g. libraries like &lt;a href="https://github.com/numpy/numpy/tree/master/numpy"&gt;numpy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;use a debugger to inspect execution of other people's code. For Python, try&amp;nbsp;&lt;a href="https://pypi.org/project/pudb/"&gt;pudb&lt;/a&gt;&amp;nbsp;(see also&amp;nbsp;&lt;a href="https://documen.tician.de/pudb/starting.html"&gt;https://documen.tician.de/pudb/starting.html&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-08-09T14:05:25.614Z</blogger:created>
+    <published>2019-08-09T14:20:00.001Z</published>
+    <updated>2019-08-09T14:20:07.906Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8340379329209018508</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Data science Interview types</title>
+    <content type='html'>&lt;br /&gt;
+&lt;strong&gt;In-person white board coding interview&lt;/strong&gt;, used at Google and Bloomberg. Practice is helpful. For example, program in a text editor (e.g., vi) with no autocomplete and mentally debug the code. Try problems from&amp;nbsp;&lt;a href="https://projecteuler.net/"&gt;project Euler&lt;/a&gt;.&lt;br /&gt;
+&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;
+&lt;strong&gt;Phone coding interviews&lt;/strong&gt;&amp;nbsp;which are done using shared Google docs.&lt;br /&gt;
+&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;
+&lt;strong&gt;Verbal only&lt;/strong&gt;: you talk about a project you've worked on, what was interesting, hard and what were you proud of.&lt;br /&gt;
+See &lt;a href="https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/"&gt;https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/&lt;/a&gt;&lt;br /&gt;
+&lt;em&gt;&lt;br /&gt;&lt;/em&gt;
+&lt;em&gt;Advice&lt;/em&gt;: Practice both in-person interviews and phone interviews.&lt;br /&gt;
+&lt;br /&gt;
+For practice coding questions: see&amp;nbsp;&lt;a href="https://www.hackerrank.com/"&gt;HackerRank&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2019-11-24T23:15:21.933Z</blogger:created>
+    <published>2019-11-24T23:15:00.005Z</published>
+    <updated>2019-11-24T23:15:51.452Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8428305971739554380</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: roles for data scientists</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;: what roles are available to me as a data scientist?&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+The list of &lt;a href="https://en.wikipedia.org/wiki/Data_science#Specializations_and_associated_careers"&gt;roles for data scientists on wikipedia&lt;/a&gt; is underwhelming, so here's a longer list:&lt;br /&gt;
+&lt;br /&gt;
+Roles that rely on soft skills&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;negotiate access with&amp;nbsp;data owners&lt;/li&gt;
+&lt;li&gt;address infrastructure issues like compute resources, storage, network bandwidth&lt;/li&gt;
+&lt;li&gt;work with &lt;a href="https://en.wikipedia.org/wiki/Chief_information_officer"&gt;CIO&lt;/a&gt; or &lt;a href="https://en.wikipedia.org/wiki/Chief_data_officer"&gt;CDO&lt;/a&gt; to establish policies for data governance, privacy, data access, tracking data lifecycle&lt;/li&gt;
+&lt;li&gt;work with data engineers on scaling and monitoring for data ingest&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;work with data analysts on creation and automation of reports&lt;/li&gt;
+&lt;li&gt;ensure customers are getting reports that address their needs in a timely manner&lt;/li&gt;
+&lt;li&gt;collaborate with system architects on how data science interfaces with&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;collaborate with fellow data scientists on identifying skill gaps, training,&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;communicate with non-data scientists to identify areas of potential collaboration and minimize overlap.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;manage a team of data scientists&lt;/li&gt;
+&lt;li&gt;engaging customers to understand what analysis is relevant&lt;/li&gt;
+&lt;li&gt;implement monitoring of who applies what transformations to which data using what compute resources throughout the organization&lt;/li&gt;
+&lt;li&gt;assisting different departments within the organization with their data science needs and questions -- &lt;a href="https://en.wikipedia.org/wiki/Human_resources"&gt;HR&lt;/a&gt;, marketing, advertising, engineering, research, production, sales, software developers&lt;/li&gt;
+&lt;li&gt;hiring additional data scientists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+Roles that rely on technical skills&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;cleaning data, creating demos&lt;/li&gt;
+&lt;li&gt;document and evangelize best practices&lt;/li&gt;
+&lt;li&gt;engaging with database owners on schema design, query latency issues, access mechanisms&lt;/li&gt;
+&lt;li&gt;evaluating technical trade-offs of options like programming language, storage method, technology cost (free vs paid),&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;development of analytics for business intelligence&lt;/li&gt;
+&lt;li&gt;machine learning&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;feature engineering&lt;/li&gt;
+&lt;li&gt;create/monitor/fix processing pipeline&lt;/li&gt;
+&lt;li&gt;hyper parameter tuning&lt;/li&gt;
+&lt;li&gt;model comparison and selection&lt;/li&gt;
+&lt;li&gt;development of algorithms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+Roles can evolve over time.&lt;br /&gt;
+You can have multiple roles concurrently.&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2020-04-09T15:27:32.377Z</blogger:created>
+    <published>2020-04-09T15:50:00Z</published>
+    <updated>2020-04-09T16:00:54.388Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8484537772577676297</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: how to choose a language</title>
+    <content type='html'>&lt;i&gt;Question&lt;/i&gt;: how to determine what language is appropriate for larger versus smaller datasets?&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;:&lt;br /&gt;
+There are a couple aspects to address when comparing programming languages:&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;what are the skill sets of the current analysts?&lt;/li&gt;
+&lt;li&gt;Who is going to be responsible for the use and maintenance?&lt;/li&gt;
+&lt;li&gt;what are the strengths and weakness of each approach?&lt;/li&gt;
+&lt;li&gt;what are the infrastructure costs?&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <blogger:created>2020-04-23T01:50:26.025Z</blogger:created>
+    <published>2020-04-23T01:51:00Z</published>
+    <updated>2020-04-23T01:51:00.850Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8660349665077824078</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: version control</title>
+    <content type='html'>&lt;br /&gt;
+&lt;i&gt;Question&lt;/i&gt;: What is version control?&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: A way to track changes made to files.&lt;br /&gt;see more in depth and more visualizations&lt;br /&gt;&lt;a href="https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control"&gt;https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control&lt;/a&gt;&lt;br /&gt;&lt;a href="https://www.perforce.com/blog/vcs/what-is-version-control"&gt;https://www.perforce.com/blog/vcs/what-is-version-control&lt;/a&gt;&lt;span class="sewtz7lnodxpmvt"&gt;&lt;/span&gt;&lt;span class="sewtz7lnodxpmvt"&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Question&lt;/i&gt;: Why use version control?&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: If a mistake is made, you can turn compare earlier versions of the code to help fix the mistake&lt;br /&gt;source: &lt;a href="https://www.atlassian.com/git/tutorials/what-is-version-control"&gt;https://www.atlassian.com/git/tutorials/what-is-version-control&lt;/a&gt;&lt;br /&gt;Knowing what changes have been made and when and by whom&amp;nbsp;helps with troubleshooting.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Question&lt;/i&gt;: When is version control used?&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: Primarily for software written as plain text files.&lt;br /&gt;
+Primarily when there are multiple files to be tracked, or when the value of content is worth extra effort to maintain.&lt;br /&gt;&lt;br /&gt;
+&lt;i&gt;Question&lt;/i&gt;: When is version control not used?&lt;br /&gt;
+&lt;i&gt;Response&lt;/i&gt;: Version control is less applicable to non-plaintext files like DOCX, PPTX, XLSX, though proprietary methods for Microsoft office have been created (primarily in Sharepoint). Other non-plaintext formats like PDF and MP4 (or most audio/video formats) are not well-suited for version control.&lt;br /&gt;
+&lt;br /&gt;&lt;i&gt;Question&lt;/i&gt;: How old is version control? Is version control new?&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: early examples include "Source Code Control System" from 1972,&lt;br /&gt;source: &lt;a href="https://en.wikipedia.org/wiki/Source_Code_Control_System"&gt;https://en.wikipedia.org/wiki/Source_Code_Control_System&lt;/a&gt;&lt;br /&gt;followed by RCS (Revision Control System) in 1982&lt;br /&gt;&lt;a href="https://en.wikipedia.org/wiki/Revision_Control_System"&gt;https://en.wikipedia.org/wiki/Revision_Control_System&lt;/a&gt;&lt;br /&gt;followed by CVS (Concurrent Versions System) in 1990&lt;br /&gt;&lt;a href="https://en.wikipedia.org/wiki/Concurrent_Versions_System"&gt;https://en.wikipedia.org/wiki/Concurrent_Versions_System&lt;/a&gt;&lt;br /&gt;The most widely used software for version control is git from 2005.&lt;br /&gt;&lt;a href="https://en.wikipedia.org/wiki/Git"&gt;https://en.wikipedia.org/wiki/Git&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Question&lt;/i&gt;: What is git?&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: Software that provides modern distributed (rather than centralized) version control.&lt;br /&gt;&lt;a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"&gt;https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Question&lt;/i&gt;: What is a repo?&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: a concatenation of "repository"&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;i&gt;Question&lt;/i&gt;: What is a repository?&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: "A repository is like a folder for your project. Your project's repository contains all of your project's files and stores each file's revision history."&lt;br /&gt;source: &lt;a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories"&gt;https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-repositories&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;</content>
+    <blogger:created>2020-04-02T16:14:16.217Z</blogger:created>
+    <published>2020-04-02T16:16:00.005Z</published>
+    <updated>2020-04-02T16:16:55.296Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8684235845232990084</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: exploring file content in Windows</title>
+    <content type='html'>&lt;h2&gt;
+Question from student:&lt;/h2&gt;
+I see you use commands like&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;!head file.txt&lt;/span&gt;&lt;br /&gt;
+in class on your Mac. I am running Windows and don't have the &lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;head&lt;/span&gt; command. What should I do?&lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor:&lt;/h2&gt;
+If you're running Linux or Mac, the shell in Jupyter notebooks is &lt;a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"&gt;bash&lt;/a&gt;&amp;nbsp;so you can run commands like&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;cat file.txt | wc -l&lt;/span&gt;&lt;br /&gt;
+and&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;head -n 10 file.txt&lt;/span&gt;&lt;br /&gt;
+However, those commands do not exist for users running Windows.&lt;br /&gt;
+&lt;br /&gt;
+In Windows 10, the closest commands in the terminal are&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;!more &amp;lt; file.txt&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;!type file.txt&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;!more /E file.txt&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: inherit;"&gt;&lt;br /&gt;&lt;/span&gt;
+&lt;span style="font-family: inherit;"&gt;For documentation on &lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;more&lt;/span&gt;, see &lt;a href="https://ss64.com/nt/more.html"&gt;https://ss64.com/nt/more.html&lt;/a&gt;&lt;/span&gt;
+&lt;span style="font-family: inherit;"&gt;All three of those commands print the entire file (not just the top of the file).&lt;/span&gt;&lt;br /&gt;
+&lt;span style="font-family: inherit;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style="font-family: inherit;"&gt;For users on Windows, there are options that get you a linux (or linux-like) environment: Docker (for Windows 10) and Cygwin.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;ul&gt;
+&lt;/ul&gt;
+If you're running a version of Windows that doesn't support Docker and are using Anaconda, then the terminal in JupyterLab is Powershell (yay!). That means there's a command in Powershell:&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;Get-Content in.csv -Head 10&lt;/span&gt;&lt;br /&gt;
+&lt;a href="https://stackoverflow.com/questions/28908638/extract-only-the-first-10-lines-of-a-csv-file-in-powershell"&gt;citation&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+However, when I run&lt;br /&gt;
+&lt;span style="font-family: &amp;quot;courier new&amp;quot; , &amp;quot;courier&amp;quot; , monospace;"&gt;
+!cmd /?&lt;/span&gt;&lt;br /&gt;
+in a JupyterLab cell with a Python kernel, I see that cmd is in use (not Powershell)</content>
+    <blogger:created>2019-05-15T01:31:05.294Z</blogger:created>
+    <published>2019-05-15T01:42:00.002Z</published>
+    <updated>2020-02-06T03:46:38.536Z</updated>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='head'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='Powershell'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='FAQ'/>
+    <category scheme='tag:blogger.com,1999:blog-4326047262954282078' term='bash'/>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8714828588017124367</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>video editing of screencast recordings</title>
+    <content type='html'>I have a screencast recording of &lt;a href="https://www.youtube.com/watch?v=nCWFMhWnxpY"&gt;how to record videos in Blackboard&lt;/a&gt;.&amp;nbsp; When screencast recordings need editing, I use Quicktime on Mac. The two categories of editing I have needed so far are trimming video from the end of a recording and trimming video within a screencast.&lt;br /&gt;
+&lt;br /&gt;
+For trimming from the end of the video, open the video in Quicktime.&lt;br /&gt;
+Edit &amp;gt; Trim&lt;br /&gt;
+Slide the left or right side of the yellow bar to the appropriate timestamp.&lt;br /&gt;
+&lt;br /&gt;
+For removing a subsection from within a video, open the video in Quicktime.&lt;br /&gt;
+Move the time selector to the start of where you want the video trimmed.&lt;br /&gt;
+Edit &amp;gt; Split Clip&lt;br /&gt;
+Then select the second clip&lt;br /&gt;
+Edit &amp;gt; Trim&lt;br /&gt;
+Slide the left side of the yellow bar to the appropriate timestamp.&lt;br /&gt;
+&lt;br /&gt;
+I have a Mac which includes iMovie, but I found I didn't need all the fancy tools in iMovie.</content>
+    <blogger:created>2019-06-04T01:16:27.211Z</blogger:created>
+    <published>2019-06-04T01:21:00.003Z</published>
+    <updated>2019-06-04T01:22:10.629Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8823762709482022759</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>FAQ: what to do with old projects?</title>
+    <content type='html'>&lt;i&gt;Context&lt;/i&gt;: Creating a portfolio of projects is useful to show employers analysis capabilities, both in terms of coding and writing.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;Question&lt;/i&gt;: As I progress in my data science career, my skills will improve. Should old projects be removed from my portfolio?&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Response&lt;/i&gt;: No, keep those projects in your portfolio. As your skills improve, revisit those projects and polish them. Keep the original data set, but see if you can make the documentation clearer. See if you can make the plots simpler. Can you find new conclusions?&lt;br /&gt;&lt;br /&gt;By posting your portfolio in a public version controlled website (e.g., Github or Gitlab), you can track changes made. That shows your process of improvement and timeline, as well as demonstrating your familiarity with industry-standard tools.</content>
+    <blogger:created>2020-05-02T18:11:28.097Z</blogger:created>
+    <published>2020-05-02T18:15:00.002Z</published>
+    <updated>2020-05-02T18:15:38.719Z</updated>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-4326047262954282078.post-8932094222058906423</id>
+    <blogger:type>POST</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title>Frequently Asked Questions: how to set up a recurring process in Python</title>
+    <content type='html'>&lt;h2&gt;
+Question from student&lt;/h2&gt;
+How would you set up a production process in Python? For example, a program that runs once per week and needs to be run by any one of several people on a team. Would a Jupyter notebook be appropriate?&lt;br /&gt;
+&lt;br /&gt;
+&lt;h2&gt;
+Response from Instructor&lt;/h2&gt;
+There are a few components in this question, so I will tackle them separately.
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;What is appropriate for a team depends strongly on the skills of each team member. If everyone on a team is comfortable running a tool, then any member can use that tool. If a team member is not familiar with the two, then either they would need to learn that tool or the number of people supporting the effort is effectively reduced. This is an example of a social-technical problem of finding a tool all members can use or figuring out whether people are willing to learn something new.&lt;/li&gt;
+&lt;li&gt;Jupyter notebooks are used in production (not just research and prototyping: &lt;a href="https://www.dataengineeringpodcast.com/using-notebooks-as-the-unifying-layer-for-data-roles-at-netflix-with-matthew-seal-episode-54/"&gt;listen&lt;/a&gt; or &lt;a href="https://medium.com/netflix-techblog/scheduling-notebooks-348e6c14cfd6"&gt;read&lt;/a&gt;), though that may not be appropriate. In a production process, having consistency and being able to reconstruct an event are important. The fact that Jupyter notebooks are intended for dynamic editing at runtime conflicts with the objectives of consistency and reproducibility.&lt;/li&gt;
+&lt;li&gt;A challenge for scheduled tasks is that they require having a reliable host (human or machine) that can trigger the event. Running a scheduled task automatically (Windows task scheduler, "cron" in linux) alleviates the need for team members to become involved but introduces the need for a computer that is available to host the scheduled task.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <blogger:created>2019-05-22T13:07:15.106Z</blogger:created>
+    <published>2019-05-22T13:07:00.003Z</published>
+    <updated>2019-05-22T13:07:57.979Z</updated>
+  </entry>
+</feed>

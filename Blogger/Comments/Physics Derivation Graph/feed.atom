@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2018'>
+  <id>tag:blogger.com,1999:blog-7761348728894775915</id>
+  <entry>
+    <id>tag:blogger.com,1999:blog-7761348728894775915.post-5755501110249529787</id>
+    <blogger:parent>tag:blogger.com,1999:blog-7761348728894775915.post-6098779109076116008</blogger:parent>
+    <blogger:type>COMMENT</blogger:type>
+    <blogger:status>LIVE</blogger:status>
+    <author>
+      <name>that one guy</name>
+      <blogger:type>BLOGGER</blogger:type>
+    </author>
+    <title></title>
+    <content type='html'>make docmac
+
+cd /scratch/sympy/sympy/parsing/latex
+java -jar /usr/local/lib/antlr-4.7.2-complete.jar LaTeX.g4 -no-visitor -no-listener -o _antlr
+python rename.py
+cd /scratch/sympy/
+python setup.py install
+exit
+
+cd sympy/
+git status
+git add sympy/parsing/latex/_antlr/latexlexer.py sympy/parsing/latex/_antlr/latexparser.py
+git commit -m &amp;quot;corrected version of Antlr from 4.8 to 4.7.2&amp;quot;
+git push</content>
+    <blogger:created>2020-08-17T00:55:54.325Z</blogger:created>
+    <published>2020-08-17T00:55:54.325Z</published>
+    <updated>2020-08-17T00:55:54.325Z</updated>
+  </entry>
+</feed>
